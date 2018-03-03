@@ -34,7 +34,8 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="about">About This Data Set</a></li>
-	    <li><a href="quality">Data Quality</a></li>
+	    	<li><a href="quality">Data Quality</a></li>
+	    	<li><a href="map">Map Visualization</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -44,8 +45,8 @@
       
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-	<h1>Interactive Data Science Project Exploratory Analysis Byte Example</h1>
-        <p>This is the Exploratory Analysis Byte of the Interactive Data Science class.</p>
+	<h1>Interactive Data Science - Byte 3</h1>
+        <p>Below </p>
       </div>
       
       <div class="page-header">
@@ -59,7 +60,7 @@
 <style>
 /* Styles for date/time chart */
 path { 
-    stroke: steelblue;
+    stroke: DarkRed;
     stroke-width: 2;
     fill: none;
 }
@@ -110,26 +111,27 @@ div.tooltip {
 		
 		// Set the dimensions of the canvas / graph
 		var margin = {top: 30, right: 20, bottom: 30, left: 50},
-		    width = 600 - margin.left - margin.right,
-		    height = 270 - margin.top - margin.bottom;
+		    width = 900 - margin.left - margin.right,
+		    height = 400 - margin.top - margin.bottom;
 		
 		// Parse the date / time
-		var parseDate = d3.timeParse("%d-%b-%y");
-		var formatTime = d3.timeFormat("%e %B");
+		var parseDate = d3.timeParse("%Q");
+		// var parseDate = d3.timeParse("%d-%b-%y");
+		var formatTime = d3.timeFormat("%b %d %H:%M:%S");
 		
 		// Set the x and y ranges
 		var x = d3.scaleTime().range([0, width]);
 		var y = d3.scaleLinear().range([height, 0]);
 		
 		// Define the axes
-		var xAxis = d3.axisBottom(x).ticks(5);
+		var xAxis = d3.axisBottom(x).ticks(11);
 		
-		var yAxis = d3.axisLeft(y).ticks(5);
+		var yAxis = d3.axisLeft(y).ticks(10);
 		
 		// Define the line we're going to draw via our data points
 		var valueline = d3.line()
-		    .x(function(d) { return x(d.date); })
-		    .y(function(d) { return y(d.close); });
+		    .x(function(d) { return x(d.time); })
+		    .y(function(d) { return y(d.batlevel); });
 		
 		// Define the div for the tooltip
 		var div = d3.select("body").append("div")	
@@ -144,18 +146,22 @@ div.tooltip {
 		    .append("g")
 		        .attr("transform", 
 		              "translate(" + margin.left + "," + margin.top + ")");
+		$("svg").css({top: 300, left: 125, position:'absolute'}); //option 1 to realign
+		
+		//d3.select("svg")
+		//	.attr("align","center"); //option 2
 		
 		// Get the data
-		d3.csv("css/walk.csv", function(error, data) {
+		d3.csv("css/battery2.csv", function(error, data) {
 		    data.forEach(function(d) {
-		        d.date = parseDate(d.date);
-		        d.close = +d.close;
-				console.log('d.date: ' + d.date + ', d.close: ' + d.close);
+		        d.time = parseDate(d.time);
+		        d.batlevel = +d.batlevel;
+				console.log('d.time: ' + d.time + ', d.batlevel: ' + d.batlevel);
 		    });
 		
 		    // Scale the range of the data
-		    x.domain(d3.extent(data, function(d) { return d.date; }));
-		    y.domain([0, d3.max(data, function(d) { return d.close; })]);
+		    x.domain(d3.extent(data, function(d) { return d.time; }));
+		    y.domain([0, d3.max(data, function(d) { return d.batlevel; })]);
 		
 		    // Add the valueline path.
 		    svg.append("path")
@@ -166,14 +172,14 @@ div.tooltip {
 		    svg.selectAll("dot")	
 		        .data(data)			
 		    .enter().append("circle")								
-		        .attr("r", 5)		
-		        .attr("cx", function(d) { return x(d.date); })		 
-		        .attr("cy", function(d) { return y(d.close); })		
+		        .attr("r", 1)		
+		        .attr("cx", function(d) { return x(d.time); })		 
+		        .attr("cy", function(d) { return y(d.batlevel); })		
 		        .on("mouseover", function(d) {		
 		            div.transition()		
 		                .duration(200)		
 		                .style("opacity", .9);		
-		            div	.html(formatTime(d.date) + "<br/>"  + d.close)	
+		            div	.html(formatTime(d.time) + "<br/>"  + d.batlevel)	
 		                .style("left", (d3.event.pageX) + "px")		
 		                .style("top", (d3.event.pageY - 28) + "px");	
 		            })					
