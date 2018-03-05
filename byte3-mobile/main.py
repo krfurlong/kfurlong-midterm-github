@@ -46,6 +46,11 @@ def quality():
 def map():
     template = JINJA_ENVIRONMENT.get_template('templates/map.html')
     return template.render()
+    
+@app.route('/aniMap')
+def aniMap():
+    template = JINJA_ENVIRONMENT.get_template('templates/aniMap.html')
+    return template.render()
 
 @app.errorhandler(404)
 def page_not_found(e):

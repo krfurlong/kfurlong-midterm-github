@@ -35,7 +35,8 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="about">About This Data Set</a></li>
 	    	<li><a href="quality">Data Quality</a></li>
-	    	<li><a href="map">Map Visualization</a></li>
+	    	<li><a href="map">Heat Map</a></li>
+	    	<li><a href="aniMap">Animated Map</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -53,8 +54,27 @@
 	
       </div> <!-- /page-header -->
     </div> <!-- /container -->
-
-<svg></svg>
+<div class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+				<br>
+				<svg></svg>
+				<br>
+				</div>
+				<div class="col-md-2">
+				</div>
+</div>
+<div class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+				<br>
+				<br>
+				</div>
+				<div class="col-md-2">
+				</div>
+</div>
 
 <!-- STYLES FOR D3 -->
 <style>
@@ -111,7 +131,7 @@ div.tooltip {
 		
 		// Set the dimensions of the canvas / graph
 		var margin = {top: 30, right: 20, bottom: 30, left: 50},
-		    width = 900 - margin.left - margin.right,
+		    width = 800 - margin.left - margin.right,
 		    height = 400 - margin.top - margin.bottom;
 		
 		// Parse the date / time
