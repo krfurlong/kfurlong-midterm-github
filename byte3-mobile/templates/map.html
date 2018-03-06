@@ -61,7 +61,18 @@
       <div class="page-header">
 	
       </div> <!-- /page-header -->
-    </div> <!-- /container -->
+    
+    <div class="page-header">
+	<p>On the map below, we have overlaid a heat map that matches the mobile device's battery level over the course of the 
+	day. We adapted the typical heat map color scheme in favor of one that more intuitively matches the colors seen on 
+	mobile devices regarding battery level. For instance, areas of bright green represent frequently visited locations 
+	where the mobile phone was close to fully charged. On the other hand, red or orange areas match location that were 
+	not visited as frequently and/or it was only frequented when the mobile phone had a low battery. We invite you to 
+	explore the heat map below and zoom in and out to get a better idea on which areas were most visited with high battery
+	and which areas are likely the most common to be sites where the mobile phone was getting charged. 
+	</p>
+      </div>
+      
     <div class="row">
 				<div class="col-md-2">
 				</div>
@@ -91,7 +102,7 @@ function displayData(Text){
  
 //here comes the leaflet standard for the basemap:
  
-  var map = L.map('map').setView([40.4406, -79.9959], 13); //[-41.2858, 174.7868]  is wellington, NZ; [40.4406, -79.9959] pitts
+  var map = L.map('map').setView([40.4406, -79.9959], 12); //[-41.2858, 174.7868]  is wellington, NZ; [40.4406, -79.9959] pitts
         mapLink = 
             '<a href="https://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer(
@@ -169,7 +180,7 @@ function displayData(Text){
 </script>
 -->
 
-
+</div> <!-- /container -->
 
 </body>
 </html>
