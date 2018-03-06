@@ -1,0 +1,147 @@
+---
+title: "kfurlong_byte3_cleaning"
+author: "Kyle Furlong"
+date: "February 25, 2018"
+output: html_document
+---
+
+```{r}
+options(scipen=999)
+library(plyr)
+library(dplyr)
+library(ggplot2)
+library(GGally)
+library(Rcpp)
+library(reshape)
+library(knitr)
+library(reshape2)
+library(gridExtra)
+library(stringr)
+library(lubridate)
+library(anytime)
+```
+
+```{r data}
+
+location <- read.csv("location_final.csv", header = FALSE)
+names(location) <- c("id", "time", "device.id", "lat", "long", "bearing", "speed", "altitude", "provider", "accuracy", "label")
+location <- select(location, -device.id, -label,-speed,-bearing,-altitude, -provider,-accuracy)
+
+# accel <- read.csv("accel.csv", header = FALSE) Omitted in analysis at present
+battery <- read.csv("battery_final.csv", header = FALSE)
+names(battery) <- c("id", "time", "device.id", "status", "bat.level", "bat.max", "na1", "na2", "na3", "na4", "label")
+battery <- select(battery, id, time, status, bat.level)
+
+charges <- read.csv("battery_charges.csv", header = FALSE)
+names(charges) <- c("id", "time", "device.id", "start", "end", "end.time")
+charges <- select(charges, -device.id)
+
+discharges <- read.csv("battery_discharges.csv", header = FALSE)
+names(discharges) <- c("id", "time", "device.id", "start", "end", "end.time")
+discharges <- select(discharges, -device.id)
+
+activity <- read.csv("activity.csv", header = FALSE)
+names(activity) <- c("id", "time", "device.id", "activity.name", "activity.type", "accuracy", "other", "na1", "na2", "na3", "na4", "label")
+activity <- select(activity, id, time, activity.name, activity.type, accuracy)
+
+screen <- read.csv("screen.csv", header = FALSE)
+names(screen) <-c("id", "time", "device.id", "status")
+screen <- select(screen, -device.id)
+
+wifi <- read.csv("wifi.csv", header = FALSE)
+names(wifi) <- c("id", "time", "device.id", "bssid", "ssid", "security", "freq", "rssi", "label")
+wifi <- select(wifi, id, time, bssid, ssid)
+
+```
+
+```{r location cleaning}
+location$easy.time <- anytime(as.numeric(location$time)/1000)
+#sum(is.na(location$altitude))
+
+location$day <- day(location$easy.time)
+location$hour <- hour(location$easy.time)
+location$minute <- minute(location$easy.time)
+location$second <- second(location$easy.time)
+```
+
+```{r battery cleaning}
+battery$easy.time <- anytime(as.numeric(battery$time)/1000)
+battery$day <- day(battery$easy.time)
+battery$hour <- hour(battery$easy.time)
+battery$minute <- minute(battery$easy.time)
+battery$second <- second(battery$easy.time)
+write.csv(battery, "battery_final2.csv")
+
+
+location$easy.time <- anytime(as.numeric(location$time)/1000)
+location$day <- day(location$easy.time)
+location$hour <- hour(location$easy.time)
+location$minute <- minute(location$easy.time)
+location$second <- second(location$easy.time)
+write.csv(location, "location_final2.csv")
+
+activity$easy.time <- anytime(as.numeric(activity$time)/1000)
+activity$day <- day(activity$easy.time)
+activity$hour <- hour(activity$easy.time)
+activity$minute <- minute(activity$easy.time)
+activity$second <- second(activity$easy.time)
+activity$activity.name[activity$activity.name == ""] <- NA
+write.csv(activity, "activity2.csv")
+
+#battery$hour.group <- c(1, rep(NA, nrow(battery)-1))
+
+#for (i in 2:nrow(battery)){
+#  battery$hour.group[i] <- ifelse((battery$hour[i]==battery$hour[i-1]) & 
+#                                    (battery$day[i]==battery$day[i-1]), 
+#                                  battery$hour.group[i-1], 
+#                                  battery$hour.group[i-1]+1)
+#}
+
+#summary(battery)
+
+```
+
+```{r}
+bat.sum <- ddply(battery, .(hour, minute) , summarise, avg.bat = mean(bat.level))
+ggplot(bat.sum) + geom_line(aes(x = minute, y = avg.bat, group = hour, color = factor(hour)))
+
+```
+
+```{r}
+#location$easy.time <- as.POSIXlt(location$easy.time)
+location$easy.time2 <- as.character(trunc(location$easy.time, units = "secs"))
+battery$easy.time2 <- as.character(trunc(battery$easy.time, units = "secs"))
+loca.prejoin <- ddply(location, ~easy.time2, summarise, latitude = mean(lat), longitude = mean(long))
+battery.prejoint <- ddply(battery, ~easy.time2, mutate, batvalue = mean(bat.level))
+loca.battery <- merge.data.frame(loca.prejoin, battery.prejoint, by = "easy.time2", all.x = TRUE)
+sum(is.na(loca.battery$batvalue))
+
+for (i in 5:(nrow(loca.battery)-5)){
+  if (is.na(loca.battery$batvalue)[i]){
+    loca.battery$batvalue[i] <- mean(loca.battery$batvalue[(i-4):(i+4)], na.rm = TRUE)
+  }
+}
+
+loca.battery <- select(loca.battery, easy.time, easy.time2, batvalue, latitude, longitude) %>%
+  filter(!is.na(longitude) & !is.na(batvalue))
+
+write.csv(loca.battery, "locabattery_final.csv")
+
+```
+
+```{r}
+names(battery)
+battery$month <- month(battery$easy.time)
+battery.plot.dat <- ddply(battery, .(month, day, hour), mutate, batlevel = mean(bat.level, na.rm = TRUE))
+ggplot(battery.plot.dat, aes(x = as.POSIXlt(easy.time), y = bat.level)) + geom_line()
+
+battery.final <- battery.plot.dat %>%
+  select(time, batlevel)
+
+battery.final <- unique(battery.final)
+write.csv(battery.final, "battery_final3.csv")
+```
+
+```{r}
+options(scipen=0)
+```

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Kyle Furong">
     <link rel="icon" href="favicon.ico">
-    <title>Map of Battery Usage</title>
+    <title>Byte3 3-Heat Map of Battery Usage</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
@@ -74,7 +74,7 @@
 $(document).ready(function() {
   $.ajax({
     type: "GET",
-    url: "templates/locabatteryCSV.csv",
+    url: "templates/locabattery_final.csv",
     dataType: "text",
     success: function(data){displayData(data)}
   });

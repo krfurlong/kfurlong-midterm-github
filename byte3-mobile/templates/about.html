@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>About This Data</title>
+    <title>Byte 3-About This Data</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,14 +48,26 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
 	<h1>Accountability: About This Data Set</h1>
-        <p>Write a brief summary about the data set here</a></p>
+        <p>Given the high degree of control exerted by the developers over the data collection process, 
+        the data presented in this web application is accountable and can be traced directly back to the 
+        source of the data. Using tools including the AWARE Framework App, Google Cloud, and R, each step 
+        along the data pipeline for this application is well-documented and transparent for interested parties.</a></p>
       </div>
 
     
       <div class="page-header">
 	<h2>Where did this data come from?</h2>
-	<p></p>
-      </div>
+	<p>This data was collected from one Apple iPhone 5s mobile device (Kyle Furlong's) on which the developers installed the AWARE Framework
+	application directly from the Apple App Store. Information regarding the AWARE Framework and its various sensors can 
+	be found <a href="http://www.awareframework.com/">here.</a> After downloading the application, the developers set up 
+	an instance in the Google Cloud in which they operated an auto-updating SQL database which periodically collected the 
+	most up-to-date data from the mobile application. Data for this project was collected near-continuously between 
+	February 15, 2018 at 9:47:11AM and March 5, 2018 at 7:48:52PM. Following the data collection period, it was then 
+	downloaded from the Google SQL database into a CSV format which the developers then imported into R for data cleaning. 
+	The location data was converted from CSV to GEOJSON using online open source applications, yet these sources should not
+	have altered or jeopardized the quality or accountability of the data in any way, shape, or form.
+	</p>
+    </div>
       
       <div class="page-header">
 	<h2>Who has access to it?</h2>

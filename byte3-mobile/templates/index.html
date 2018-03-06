@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Index</title>
+    <title>Byte 3-Visualizing Mobile Data</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
@@ -47,13 +47,41 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
 	<h1>Interactive Data Science - Byte 3</h1>
-        <p>Below </p>
+        <p>Sensor data as collected by common mobile devices highlight many somewhat mundane yet important aspects of 
+        our lives.In this brief analysis, we explore the information collected from one such device as it relates to 
+        location and battery level to identify trends and other insights underlying these patterns.</p>
       </div>
       
       <div class="page-header">
 	
       </div> <!-- /page-header -->
     </div> <!-- /container -->
+    
+<div class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+				<p>Using the AWARE Framework, we collected data from our mobile device as it pertained to our device's battery
+				level and location. Moving forward in our analysis, we sought to understand approximately <b>when and where </b>
+				our mobile device's phone battery was being depleted and, more generally, if we were missing any opportunities
+				to recharge our phone during the course of the day as to prevent unwanted and unplanned phone shut-offs.  
+				</p>
+				<p>At a high level, the interactive line plot below captures a primary finding from our data collection. 
+				Specifically, we see a somewhat gradual depletion of our phone's battery during the morning and afternoon 
+				hours each day only to be interrupted with a sharp increase in the battery level during the evening and night
+				hours, which aligns with our habit to charge our mobile device overnight. To see the average battery level
+				for any given hour during the course of the mobile data study, we invite you to move your cursor over the
+				corresponding data point on the plot to learn the specific time period and corresponding battery level.
+				</p>
+				<p>After exploring this high-level line plot showing battery consumption over time, we encourage you to 
+				navigate to the other pages using the header above to learn more about the quality of the data and get a 
+				more nuanced view of the data through visualizing its contents projected on interactive web maps. 
+				</p>
+				</div>
+				<div class="col-md-2">
+				</div>
+</div>
+
 <div class="row">
 				<div class="col-md-2">
 				</div>
@@ -166,13 +194,13 @@ div.tooltip {
 		    .append("g")
 		        .attr("transform", 
 		              "translate(" + margin.left + "," + margin.top + ")");
-		$("svg").css({top: 300, left: 125, position:'absolute'}); //option 1 to realign
+		$("svg").css({top: 710, left: 250, position:'absolute'}); //option 1 to realign
 		
 		//d3.select("svg")
 		//	.attr("align","center"); //option 2
 		
 		// Get the data
-		d3.csv("css/battery2.csv", function(error, data) {
+		d3.csv("css/battery_final3.csv", function(error, data) {
 		    data.forEach(function(d) {
 		        d.time = parseDate(d.time);
 		        d.batlevel = +d.batlevel;

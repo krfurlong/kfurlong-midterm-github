@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Animated Path of Location Data</title>
+<title>Byte 3-Animated Path of Location Data</title>
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Bootstrap theme -->
@@ -104,10 +104,10 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 var svg = d3.select(mymap.getPanes().overlayPane).append("svg");
 var g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
-d3.json("templates/locabattery.geojson", function(collection) {
+d3.json("templates/final_location.geojson", function(collection) {
 	
 	var featuresdata = collection.features.filter(function(d) {
-            return d.properties.field_1 > -1
+            return d.properties.FIELD1 > -1
         })
 	
 
