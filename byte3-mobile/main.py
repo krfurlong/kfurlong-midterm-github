@@ -2,9 +2,7 @@
 
 # Data Exploration Byte Version 3
 # 
-# Copyright 2/2018 John Stamper
-#
-# Licensed under GPL v3 (http://www.gnu.org/licenses/gpl.html)
+
 #
 
 # Imports
