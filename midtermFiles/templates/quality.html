@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Byte 3-Data Quality</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About This Data Set</a></li>
+	    	<li  class="active"><a href="quality">Data Quality</a></li>
+	    	<li><a href="map">Heat Map</a></li>
+	    	<li><a href="aniMap">Animated Map</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+	<h1>Quality: About This Data Set</h1>
+        <p>Given the technical challenges present in the data cleaning process, the overall quality of the data presented
+        in this web application is quite strong. Due to minor bugs in the data collection application, there are some minor
+        data completeness concerns which exacerbated other problems related to the coherence and correctness of the data. 
+        However, paired with the granularity and breadth of the data, we were able to mitigate many of these minor data
+        quality constraints in our analysis.</p>
+      </div>
+
+    
+      <div class="page-header">
+	<h2>Data Completeness: Is the data complete?</h2>
+	<p>Generally, the data used in this web application is quite complete. However, due to some logical factors and other
+	minor technical issues, some data was not collected during the course of the data collection period. For instance, 
+	although we predominantly avoided having our phone's battery die during the study, this could not be completely avoided. 
+	When this occurred, the AWARE Framework app was understandably unable to collect data which resulted in a few "holes" in
+	the final data set.</p>
+	<p>We also have a few holes scattered throughout the period due to the fact that our location data was 
+	not collected continuously but rather was measured and reported at set intervals. In most scenarios, this artifact of
+	the data collection technology did not matter. However, as made apparent in the maps, when the mobile device was collecting
+	data while in a vehicle (i.e. bus or car), the data is significantly more jagged, representing small holes in our data.
+	</p>
+	<p>Finally, we lost some data during the data cleaning process following the data collection period. Specifically in the
+	battery consumption heat map, we joined two distinct tables which held data from two different sensors: location and 
+	battery level. The interval for data collection varied between these two sensors, so there was not always a one-to-one
+	matching between the mobile device's location and its battery level at that location. We attempted to mitigate most of 
+	these issues by truncating the time variable on which we joined the two tables at the seconds level, but this still 
+	failed to keep approximately half of the location data points in our data set. </p>
+	<p>Although these issues regarding data completeness may concern some researcher, given the relatively low-stakes topic
+	in question in this study, we were not overly concerned about the missing data. To remove some of the missingness in the
+	above-mentioned battery-location table, we imputed values for the missing battery levels by taking a simple average for 
+	the four data points immediately preceeding and immediately following the missing battery value. Since data points were
+	collected frequently, the average battery level typically did not diminish significantly in the span of time between 
+	t-4 and t+4. This imputation process allowed us to "recapture" over 2,000 data points that we would have been forced to
+	omit in our analysis without the imputation.
+	</p>
+      </div>
+      
+      <div class="page-header">
+	<h2>Data Coherence: Is the data coherent?</h2>
+	<p>The data collected is coherent relative to itself. Given that any given mobile device's battery level can only range
+	from 0 (dead) to 100 (fully charged), we see that this interval fully spans the battery level values as reported in the 
+	data set. Furthermore, looking at battery level over time, we see that the progression follows a sensible pattern of 
+	declining gradually over the course of the day and then increasing quickly over night - which follows our habit of 
+	plugging our phone in over night. The only period in which our hourly average battery level did not recharge fully to 
+	100 was during the middle of the collection period which happened to coincide with a late night recreational activity
+	that immediately preceeded an early morning obligation on a weekend. </p>
+	<p>Similarly, the location data we collected makes sense relative to itself and matches our expectations when compared
+	against the activities in which we were participating at that given time. For instance, the vast majority of our data 
+	falls along Northumberland Street in Squirrel Hill, which makes sense given this route is the most direct path to 
+	Carnegie Mellon University from the residence of the data collectee. Major deviations from this path to and from campus
+	correspond to unique events such as the aforementioned weekend recreational activitiy in the Friendship neighborhood of
+	Pittsburgh, a dinner party with friends in the Greenfield neighborhood, a visit with a friend around North Oakland, and 
+	finally an airport drop-off seen in the data points west of Pittsburgh.
+	
+	</p>
+		
+      </div>
+
+      <div class="page-header">
+	<h2>Data Precision: Is the data correct?</h2>
+	<p>Due to the personal nature of this data, we were able to cross-reference aspects of the data with real-life events
+	to ascertain the precision of the data. For example, many of the data points that seemed to defy our expectations 
+	regarding location in the section above only made sense when checked against the surrounding events. We also must note
+	that while most of our location data is very precise, there is an accuracy field in the location table that reports 
+	how "confident" the sensor is in that specific data entry. Due to the scope of this project, we omitted an analysis of
+	this accuracy variable with respect to location, but it could lead to some interesting findings regarding location 
+	"dead zones" or areas of poor GPS connectivity in the future. </p>
+	<p>We also were able to verify elements of our battery level data. When we initialized this project, we tested the
+	accuracy of this data by noting the time and battery level when the AWARE Framework app was first connected to our
+	Google Cloud SQL instance and the time and battery level when we exported our final batch of data from the app to the
+	database. In each case, we found that the observed time and battery level perfectly matched the data collected via the
+	AWARE Framework application.</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+  </body>
+</html>
