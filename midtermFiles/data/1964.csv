@@ -1,0 +1,318 @@
+"","source","donor.continent","target","target.continent","time","value"
+"203","Austria","Europe","Afghanistan","Asia",1964,0.02
+"285","United Kingdom","Europe","Afghanistan","Asia",1964,0.44
+"342","Germany","Europe","Afghanistan","Asia",1964,6.63
+"505","Italy","Europe","Afghanistan","Asia",1964,0.03
+"527","United States","North America","Afghanistan","Asia",1964,37
+"624","Japan","Asia","Afghanistan","Asia",1964,0.1
+"3168","Canada","North America","Benin","Africa",1964,0.02
+"3195","Germany","Europe","Benin","Africa",1964,1.59
+"3320","Italy","Europe","Benin","Africa",1964,0.01
+"3446","Austria","Europe","Benin","Africa",1964,0.02
+"3643","United States","North America","Benin","Africa",1964,1
+"3675","Norway","Europe","Benin","Africa",1964,0.04
+"3777","France","Europe","Benin","Africa",1964,12
+"4382","Japan","Asia","Bhutan","Asia",1964,0.01
+"4577","Germany","Europe","Bolivia","South America",1964,2.89
+"4626","United Kingdom","Europe","Bolivia","South America",1964,0.23
+"4723","Japan","Asia","Bolivia","South America",1964,0.01
+"4911","Austria","Europe","Bolivia","South America",1964,0.01
+"4968","Italy","Europe","Bolivia","South America",1964,0.04
+"5201","United States","North America","Bolivia","South America",1964,33
+"5446","Germany","Europe","Burkina Faso","Africa",1964,0.12
+"5765","Switzerland","Europe","Burkina Faso","Africa",1964,0.03
+"5903","France","Europe","Burkina Faso","Africa",1964,9.7
+"5948","Japan","Asia","Burkina Faso","Africa",1964,0.01
+"6220","United States","North America","Burkina Faso","Africa",1964,1
+"6237","United Kingdom","Europe","Burundi","Africa",1964,0.01
+"6261","Germany","Europe","Burundi","Africa",1964,0.17
+"6803","Switzerland","Europe","Burundi","Africa",1964,0.01
+"7004","Belgium","Europe","Burundi","Africa",1964,5.66
+"7870","Japan","Asia","Cambodia","Asia",1964,1.16
+"8217","Germany","Europe","Cambodia","Asia",1964,0.16
+"8231","United Kingdom","Europe","Cambodia","Asia",1964,0.07
+"8275","France","Europe","Cambodia","Asia",1964,3
+"8303","United States","North America","Cambodia","Asia",1964,7
+"8424","Canada","North America","Cambodia","Asia",1964,0.12
+"8834","Germany","Europe","Cameroon","Africa",1964,0.3
+"9054","United Kingdom","Europe","Cameroon","Africa",1964,0.07
+"9094","Canada","North America","Cameroon","Africa",1964,0.14
+"9107","Italy","Europe","Cameroon","Africa",1964,0.01
+"9288","United States","North America","Cameroon","Africa",1964,3
+"9346","France","Europe","Cameroon","Africa",1964,17.2
+"9476","Switzerland","Europe","Cameroon","Africa",1964,0.1
+"9823","France","Europe","Central African Republic","Africa",1964,9
+"10017","United Kingdom","Europe","Central African Republic","Africa",1964,5.23
+"10173","United States","North America","Central African Republic","Africa",1964,1
+"10416","France","Europe","Chad","Africa",1964,11.1
+"10508","United States","North America","Chad","Africa",1964,1
+"10787","Canada","North America","Chad","Africa",1964,0.03
+"10867","Germany","Europe","Chad","Africa",1964,0.04
+"11486","Germany","Europe","Congo","Africa",1964,0.22
+"11545","Switzerland","Europe","Congo","Africa",1964,0.02
+"11744","United Kingdom","Europe","Congo","Africa",1964,0.01
+"11775","France","Europe","Congo","Africa",1964,10.5
+"11869","Canada","North America","Congo","Africa",1964,0.48
+"12146","Italy","Europe","Cote d'Ivoire","Africa",1964,0.01
+"12266","Germany","Europe","Cote d'Ivoire","Africa",1964,0.05
+"12273","Canada","North America","Cote d'Ivoire","Africa",1964,0.02
+"12364","United Kingdom","Europe","Cote d'Ivoire","Africa",1964,0.02
+"12524","France","Europe","Cote d'Ivoire","Africa",1964,25.7
+"12719","United States","North America","Cote d'Ivoire","Africa",1964,6
+"13452","United States","North America","Democratic Republic of the Congo","Africa",1964,38
+"13474","Germany","Europe","Democratic Republic of the Congo","Africa",1964,0.72
+"13664","Italy","Europe","Democratic Republic of the Congo","Africa",1964,1.08
+"13722","United Kingdom","Europe","Democratic Republic of the Congo","Africa",1964,1.21
+"13802","Switzerland","Europe","Democratic Republic of the Congo","Africa",1964,0.06
+"14053","Norway","Europe","Democratic Republic of the Congo","Africa",1964,0.1
+"14102","Belgium","Europe","Democratic Republic of the Congo","Africa",1964,66.15
+"14716","United Kingdom","Europe","Egypt","Africa",1964,2.31
+"14856","Italy","Europe","Egypt","Africa",1964,16.6
+"14898","Japan","Asia","Egypt","Africa",1964,0.06
+"15091","Austria","Europe","Egypt","Africa",1964,0.59
+"15123","Germany","Europe","Egypt","Africa",1964,21.62
+"15149","United States","North America","Egypt","Africa",1964,185
+"16076","Italy","Europe","El Salvador","North America",1964,0.01
+"16124","Germany","Europe","El Salvador","North America",1964,0.42
+"16131","Japan","Asia","El Salvador","North America",1964,0.04
+"16218","United States","North America","El Salvador","North America",1964,11
+"17231","Austria","Europe","Ethiopia","Africa",1964,0.03
+"17336","Italy","Europe","Ethiopia","Africa",1964,1.36
+"17615","United Kingdom","Europe","Ethiopia","Africa",1964,0.06
+"17757","United States","North America","Ethiopia","Africa",1964,9
+"17813","Norway","Europe","Ethiopia","Africa",1964,0.1
+"17914","Sweden","Europe","Ethiopia","Africa",1964,0.96
+"18041","Japan","Asia","Ethiopia","Africa",1964,0.02
+"18050","Germany","Europe","Ethiopia","Africa",1964,0.88
+"18188","Switzerland","Europe","Ethiopia","Africa",1964,0.01
+"18545","Canada","North America","Gambia","Africa",1964,0.02
+"18800","United Kingdom","Europe","Gambia","Africa",1964,2.45
+"19589","Canada","North America","Ghana","Africa",1964,1.38
+"20001","Norway","Europe","Ghana","Africa",1964,0.02
+"20120","United States","North America","Ghana","Africa",1964,8
+"20122","Germany","Europe","Ghana","Africa",1964,2.98
+"20148","Japan","Asia","Ghana","Africa",1964,0.23
+"20224","Italy","Europe","Ghana","Africa",1964,0.02
+"20309","United Kingdom","Europe","Ghana","Africa",1964,6.63
+"20468","Switzerland","Europe","Ghana","Africa",1964,0.12
+"20496","Austria","Europe","Guatemala","North America",1964,0.26
+"20921","Italy","Europe","Guatemala","North America",1964,0.01
+"21015","United States","North America","Guatemala","North America",1964,11
+"21020","Germany","Europe","Guatemala","North America",1964,0.37
+"21328","United States","North America","Guinea","Africa",1964,12
+"21364","Germany","Europe","Guinea","Africa",1964,1.39
+"21461","Canada","North America","Guinea","Africa",1964,0.01
+"21629","Switzerland","Europe","Guinea","Africa",1964,0.02
+"21733","Italy","Europe","Guinea","Africa",1964,0.03
+"21933","United Kingdom","Europe","Guinea","Africa",1964,0.01
+"22761","United Kingdom","Europe","Guyana","South America",1964,3.24
+"22961","United States","North America","Guyana","South America",1964,1
+"23084","Canada","North America","Guyana","South America",1964,0.1
+"23355","Italy","Europe","Haiti","North America",1964,0.01
+"23539","United States","North America","Haiti","North America",1964,3
+"23782","Germany","Europe","Haiti","North America",1964,0.27
+"24245","United Kingdom","Europe","Honduras","North America",1964,3.9
+"24366","Italy","Europe","Honduras","North America",1964,0.01
+"24470","United States","North America","Honduras","North America",1964,4
+"24559","Germany","Europe","Honduras","North America",1964,0.17
+"24928","United Kingdom","Europe","India","Asia",1964,94.6
+"25095","Netherlands","Europe","India","Asia",1964,2.9
+"25178","Austria","Europe","India","Asia",1964,3.77
+"25441","Switzerland","Europe","India","Asia",1964,0.32
+"25553","Canada","North America","India","Asia",1964,40.71
+"25574","Norway","Europe","India","Asia",1964,0.82
+"25615","Germany","Europe","India","Asia",1964,72.31
+"25628","Sweden","Europe","India","Asia",1964,2.82
+"25780","Denmark","Europe","India","Asia",1964,0.9
+"25788","Japan","Asia","India","Asia",1964,35.46
+"25798","United States","North America","India","Asia",1964,861
+"25964","Japan","Asia","Indonesia","Oceania",1964,15.01
+"26247","United States","North America","Indonesia","Oceania",1964,31
+"26302","United Kingdom","Europe","Indonesia","Oceania",1964,0.09
+"26311","Italy","Europe","Indonesia","Oceania",1964,1.98
+"26336","Austria","Europe","Indonesia","Oceania",1964,0.12
+"26384","Sweden","Europe","Indonesia","Oceania",1964,0.44
+"26574","Canada","North America","Indonesia","Oceania",1964,0.44
+"26688","Germany","Europe","Indonesia","Oceania",1964,14.16
+"26885","Norway","Europe","Kenya","Africa",1964,0.02
+"27137","United States","North America","Kenya","Africa",1964,3
+"27145","Germany","Europe","Kenya","Africa",1964,4.45
+"27162","Italy","Europe","Kenya","Africa",1964,0.04
+"27175","Sweden","Europe","Kenya","Africa",1964,0.12
+"27218","Canada","North America","Kenya","Africa",1964,0.35
+"27406","Japan","Asia","Kenya","Africa",1964,0.22
+"27503","Austria","Europe","Kenya","Africa",1964,0.01
+"27645","United Kingdom","Europe","Kenya","Africa",1964,47.96
+"27857","Switzerland","Europe","Kenya","Africa",1964,0.02
+"28104","United Kingdom","Europe","Kiribati","Oceania",1964,0.27
+"28989","Japan","Asia","Lao People's Democratic Republic","Asia",1964,0.11
+"29106","France","Europe","Lao People's Democratic Republic","Asia",1964,2.4
+"29134","Canada","North America","Lao People's Democratic Republic","Asia",1964,0.12
+"29399","Germany","Europe","Lao People's Democratic Republic","Asia",1964,0.09
+"29516","United Kingdom","Europe","Lao People's Democratic Republic","Asia",1964,3.5
+"29627","United States","North America","Lao People's Democratic Republic","Asia",1964,39
+"29661","United Kingdom","Europe","Lesotho","Africa",1964,5.4
+"30009","Canada","North America","Lesotho","Africa",1964,0.07
+"30315","Switzerland","Europe","Lesotho","Africa",1964,0.03
+"30732","Austria","Europe","Liberia","Africa",1964,0.09
+"30757","Sweden","Europe","Liberia","Africa",1964,0.67
+"30861","Germany","Europe","Liberia","Africa",1964,2.82
+"30871","United States","North America","Liberia","Africa",1964,11
+"30899","United Kingdom","Europe","Liberia","Africa",1964,0.04
+"30908","Canada","North America","Liberia","Africa",1964,0.81
+"31202","Japan","Asia","Madagascar","Africa",1964,0.03
+"31352","United Kingdom","Europe","Madagascar","Africa",1964,0.01
+"31353","Canada","North America","Madagascar","Africa",1964,0.01
+"31359","France","Europe","Madagascar","Africa",1964,31.5
+"31759","Switzerland","Europe","Madagascar","Africa",1964,0.05
+"31765","Norway","Europe","Madagascar","Africa",1964,0.06
+"31880","Germany","Europe","Madagascar","Africa",1964,1.99
+"31903","United States","North America","Madagascar","Africa",1964,1
+"32166","Canada","North America","Malawi","Africa",1964,0.02
+"32299","United Kingdom","Europe","Malawi","Africa",1964,30.22
+"32402","United States","North America","Malawi","Africa",1964,2
+"32571","Germany","Europe","Malawi","Africa",1964,0.1
+"33202","Canada","North America","Mali","Africa",1964,0.05
+"33356","Germany","Europe","Mali","Africa",1964,0.79
+"33548","United States","North America","Mali","Africa",1964,2
+"33569","Switzerland","Europe","Mali","Africa",1964,0.02
+"33621","France","Europe","Mali","Africa",1964,5.9
+"33693","France","Europe","Mauritania","Africa",1964,9.1
+"33747","United Kingdom","Europe","Mauritania","Africa",1964,0.07
+"34189","Germany","Europe","Mauritania","Africa",1964,0.06
+"35637","France","Europe","Morocco","Africa",1964,59.9
+"35975","Italy","Europe","Morocco","Africa",1964,0.45
+"36046","United States","North America","Morocco","Africa",1964,39
+"36049","Canada","North America","Morocco","Africa",1964,0.04
+"36050","Germany","Europe","Morocco","Africa",1964,0.36
+"36091","United Kingdom","Europe","Morocco","Africa",1964,0.08
+"36263","Switzerland","Europe","Morocco","Africa",1964,0.01
+"37341","Sweden","Europe","Myanmar","Asia",1964,0.17
+"37695","Canada","North America","Myanmar","Asia",1964,0.61
+"37745","United Kingdom","Europe","Myanmar","Asia",1964,0.37
+"37759","Austria","Europe","Myanmar","Asia",1964,0.02
+"37789","Japan","Asia","Myanmar","Asia",1964,16.76
+"37887","United States","North America","Myanmar","Asia",1964,3
+"38137","Canada","North America","Nepal","Asia",1964,0.01
+"38559","Japan","Asia","Nepal","Asia",1964,0.02
+"38591","United Kingdom","Europe","Nepal","Asia",1964,1.19
+"38673","Norway","Europe","Nepal","Asia",1964,0.03
+"38830","United States","North America","Nepal","Asia",1964,17
+"38860","Switzerland","Europe","Nepal","Asia",1964,0.21
+"38992","Germany","Europe","Nepal","Asia",1964,0.04
+"39576","Germany","Europe","Nicaragua","North America",1964,0.05
+"39710","Italy","Europe","Nicaragua","North America",1964,0.01
+"39715","United States","North America","Nicaragua","North America",1964,7
+"39937","France","Europe","Niger","Africa",1964,11.1
+"40017","United Kingdom","Europe","Niger","Africa",1964,0.03
+"40296","Germany","Europe","Niger","Africa",1964,0.31
+"40378","United States","North America","Niger","Africa",1964,1
+"40748","Canada","North America","Nigeria","Africa",1964,1.27
+"40893","Austria","Europe","Nigeria","Africa",1964,0.16
+"40951","Japan","Asia","Nigeria","Africa",1964,0.07
+"40975","United States","North America","Nigeria","Africa",1964,25
+"41022","Sweden","Europe","Nigeria","Africa",1964,0.01
+"41031","Germany","Europe","Nigeria","Africa",1964,0.64
+"41317","Italy","Europe","Nigeria","Africa",1964,3.88
+"41498","Switzerland","Europe","Nigeria","Africa",1964,0.01
+"41560","Norway","Europe","Nigeria","Africa",1964,0.04
+"41652","United Kingdom","Europe","Nigeria","Africa",1964,11.59
+"41704","Canada","North America","Pakistan","Africa",1964,22.66
+"41781","Japan","Asia","Pakistan","Africa",1964,16.24
+"41893","Sweden","Europe","Pakistan","Africa",1964,1.49
+"41957","United States","North America","Pakistan","Africa",1964,379
+"42185","Italy","Europe","Pakistan","Africa",1964,0.05
+"42368","Germany","Europe","Pakistan","Africa",1964,46.04
+"42391","Switzerland","Europe","Pakistan","Africa",1964,0.01
+"42434","Austria","Europe","Pakistan","Africa",1964,0.41
+"42443","Norway","Europe","Pakistan","Africa",1964,0.01
+"42605","United Kingdom","Europe","Pakistan","Africa",1964,28.01
+"43323","Germany","Europe","Paraguay","South America",1964,0.06
+"43576","United States","North America","Paraguay","South America",1964,8
+"43760","Italy","Europe","Paraguay","South America",1964,0.01
+"44318","Canada","North America","Philippines","Oceania",1964,0.09
+"44559","Japan","Asia","Philippines","Oceania",1964,21.35
+"44593","Switzerland","Europe","Philippines","Oceania",1964,0.01
+"44628","United States","North America","Philippines","Oceania",1964,49
+"44644","United Kingdom","Europe","Philippines","Oceania",1964,0.2
+"44764","Germany","Europe","Philippines","Oceania",1964,1.84
+"44989","Canada","North America","Rwanda","Africa",1964,0.13
+"45527","Germany","Europe","Rwanda","Africa",1964,0.25
+"45631","Switzerland","Europe","Rwanda","Africa",1964,0.37
+"45864","Belgium","Europe","Rwanda","Africa",1964,4.65
+"46718","France","Europe","Senegal","Africa",1964,41.8
+"46731","Germany","Europe","Senegal","Africa",1964,2.57
+"46826","United States","North America","Senegal","Africa",1964,5
+"47467","Switzerland","Europe","Senegal","Africa",1964,0.07
+"47649","United States","North America","Sierra Leone","Africa",1964,4
+"47727","Canada","North America","Sierra Leone","Africa",1964,0.14
+"47762","Italy","Europe","Sierra Leone","Africa",1964,0.01
+"47888","United Kingdom","Europe","Sierra Leone","Africa",1964,5.52
+"47908","Germany","Europe","Sierra Leone","Africa",1964,0.02
+"48790","United Kingdom","Europe","Solomon Islands","Oceania",1964,2.83
+"48948","United States","North America","Somalia","Africa",1964,6
+"49114","Germany","Europe","Somalia","Africa",1964,4.04
+"49337","Italy","Europe","Somalia","Africa",1964,7.51
+"49476","United Kingdom","Europe","Somalia","Africa",1964,0.01
+"49689","Japan","Asia","Somalia","Africa",1964,0.01
+"50053","United States","North America","Sri Lanka","Asia",1964,3
+"50238","Japan","Asia","Sri Lanka","Asia",1964,0.22
+"50365","Sweden","Europe","Sri Lanka","Asia",1964,0.13
+"50393","United Kingdom","Europe","Sri Lanka","Asia",1964,1.38
+"50438","Germany","Europe","Sri Lanka","Asia",1964,1.32
+"50762","Canada","North America","Sri Lanka","Asia",1964,2.32
+"50819","Austria","Europe","Sri Lanka","Asia",1964,0.01
+"50981","Japan","Asia","Sudan","Africa",1964,0.03
+"51396","Italy","Europe","Sudan","Africa",1964,2.57
+"51617","United States","North America","Sudan","Africa",1964,10
+"51742","United Kingdom","Europe","Sudan","Africa",1964,3.3
+"52133","United Kingdom","Europe","Swaziland","Africa",1964,12.42
+"52459","Canada","North America","Swaziland","Africa",1964,0.01
+"52506","Italy","Europe","Syrian Arab Republic","Asia",1964,0.02
+"52721","United Kingdom","Europe","Syrian Arab Republic","Asia",1964,0.19
+"52847","Japan","Asia","Syrian Arab Republic","Asia",1964,0.02
+"53867","Germany","Europe","Tanzania","Africa",1964,9.14
+"54068","United States","North America","Tanzania","Africa",1964,6
+"54151","Canada","North America","Tanzania","Africa",1964,0.59
+"54166","United Kingdom","Europe","Tanzania","Africa",1964,24.69
+"54243","Italy","Europe","Tanzania","Africa",1964,0.02
+"54446","Austria","Europe","Tanzania","Africa",1964,0.1
+"54456","Switzerland","Europe","Tanzania","Africa",1964,0.01
+"54592","Norway","Europe","Tanzania","Africa",1964,0.13
+"54656","Sweden","Europe","Tanzania","Africa",1964,1.07
+"54721","Japan","Asia","Tanzania","Africa",1964,0.02
+"55291","Italy","Europe","Togo","Oceania",1964,0.01
+"55356","France","Europe","Togo","Oceania",1964,4.5
+"55370","United Kingdom","Europe","Togo","Oceania",1964,0.02
+"55565","Germany","Europe","Togo","Oceania",1964,5.22
+"55627","Switzerland","Europe","Togo","Oceania",1964,0.05
+"55716","Canada","North America","Togo","Oceania",1964,0.05
+"55846","United States","North America","Togo","Oceania",1964,2
+"56318","Canada","North America","Uganda","Africa",1964,0.37
+"56388","United States","North America","Uganda","Africa",1964,2
+"56391","Germany","Europe","Uganda","Africa",1964,0.11
+"56819","Austria","Europe","Uganda","Africa",1964,0.01
+"56895","United Kingdom","Europe","Uganda","Africa",1964,16.81
+"56998","Norway","Europe","Uganda","Africa",1964,0.18
+"57065","Sweden","Europe","Uganda","Africa",1964,0.01
+"58196","United Kingdom","Europe","Vanuatu","Oceania",1964,0.64
+"58304","Italy","Europe","Viet Nam","Asia",1964,0.09
+"58482","France","Europe","Viet Nam","Asia",1964,11.4
+"58579","Germany","Europe","Viet Nam","Asia",1964,5.37
+"58684","United States","North America","Viet Nam","Asia",1964,221
+"58733","Switzerland","Europe","Viet Nam","Asia",1964,0.02
+"58743","Canada","North America","Viet Nam","Asia",1964,0.45
+"59045","United Kingdom","Europe","Viet Nam","Asia",1964,0.18
+"59153","Japan","Asia","Viet Nam","Asia",1964,5.86
+"60137","Italy","Europe","Yemen","Africa",1964,0.1
+"60386","Switzerland","Europe","Yemen","Africa",1964,0.06
+"60472","United States","North America","Yemen","Africa",1964,6
+"60568","United Kingdom","Europe","Yemen","Africa",1964,16.3
+"60663","Germany","Europe","Yemen","Africa",1964,0.7
+"61305","Germany","Europe","Zambia","Africa",1964,0.08
+"61395","Canada","North America","Zambia","Africa",1964,0.01
+"61514","Italy","Europe","Zambia","Africa",1964,0.02
+"61598","United Kingdom","Europe","Zambia","Africa",1964,20.56
+"62301","Germany","Europe","Zimbabwe","Africa",1964,0.09
+"62339","Canada","North America","Zimbabwe","Africa",1964,0.1
+"62360","United Kingdom","Europe","Zimbabwe","Africa",1964,4.24

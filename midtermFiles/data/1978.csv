@@ -1,0 +1,833 @@
+"","source","donor.continent","target","target.continent","time","value"
+"74","Canada","North America","Afghanistan","Asia",1978,4.19
+"130","Italy","Europe","Afghanistan","Asia",1978,0.06
+"162","Austria","Europe","Afghanistan","Asia",1978,0.08
+"176","United Kingdom","Europe","Afghanistan","Asia",1978,1.67
+"188","Switzerland","Europe","Afghanistan","Asia",1978,0.67
+"238","Japan","Asia","Afghanistan","Asia",1978,4.86
+"247","Australia","Oceania","Afghanistan","Asia",1978,1.03
+"290","Belgium","Europe","Afghanistan","Asia",1978,0.06
+"346","Netherlands","Europe","Afghanistan","Asia",1978,1.72
+"352","United States","North America","Afghanistan","Asia",1978,11
+"643","Sweden","Europe","Afghanistan","Asia",1978,0.45
+"671","Germany","Europe","Afghanistan","Asia",1978,5.8
+"732","Denmark","Europe","Afghanistan","Asia",1978,0.41
+"1030","Germany","Europe","Angola","Africa",1978,0.22
+"1060","Netherlands","Europe","Angola","Africa",1978,10.71
+"1101","Japan","Asia","Angola","Africa",1978,0.01
+"1199","Italy","Europe","Angola","Africa",1978,0.58
+"1331","United Kingdom","Europe","Angola","Africa",1978,0.17
+"1376","Denmark","Europe","Angola","Africa",1978,1.96
+"1380","Switzerland","Europe","Angola","Africa",1978,0.14
+"1443","Sweden","Europe","Angola","Africa",1978,13.57
+"1520","United States","North America","Angola","Africa",1978,1
+"1558","Belgium","Europe","Angola","Africa",1978,0.5
+"2301","Canada","North America","Bangladesh","Asia",1978,77.57
+"2321","United States","North America","Bangladesh","Asia",1978,165
+"2341","Switzerland","Europe","Bangladesh","Asia",1978,14.79
+"2426","Ireland","Europe","Bangladesh","Asia",1978,0.05
+"2474","Japan","Asia","Bangladesh","Asia",1978,119.62
+"2486","Italy","Europe","Bangladesh","Asia",1978,1.27
+"2590","United Kingdom","Europe","Bangladesh","Asia",1978,84.39
+"2599","Germany","Europe","Bangladesh","Asia",1978,49.58
+"2626","Norway","Europe","Bangladesh","Asia",1978,15.5
+"2694","Austria","Europe","Bangladesh","Asia",1978,0.09
+"2700","Denmark","Europe","Bangladesh","Asia",1978,23.58
+"2710","New Zealand","Oceania","Bangladesh","Asia",1978,0.2
+"2764","Belgium","Europe","Bangladesh","Asia",1978,0.22
+"2848","Netherlands","Europe","Bangladesh","Asia",1978,63.61
+"3018","Australia","Oceania","Bangladesh","Asia",1978,16.15
+"3051","France","Europe","Bangladesh","Asia",1978,8.39
+"3056","Poland","Europe","Bangladesh","Asia",1978,1
+"3063","Sweden","Europe","Bangladesh","Asia",1978,26.38
+"3077","Finland","Europe","Bangladesh","Asia",1978,0.18
+"3172","Belgium","Europe","Benin","Africa",1978,0.52
+"3179","Canada","North America","Benin","Africa",1978,2.34
+"3245","United Kingdom","Europe","Benin","Africa",1978,0.11
+"3271","Norway","Europe","Benin","Africa",1978,1.94
+"3277","Japan","Asia","Benin","Africa",1978,0.17
+"3284","Netherlands","Europe","Benin","Africa",1978,0.65
+"3382","Switzerland","Europe","Benin","Africa",1978,1.68
+"3494","France","Europe","Benin","Africa",1978,13.28
+"3505","United States","North America","Benin","Africa",1978,3
+"3615","Germany","Europe","Benin","Africa",1978,4.85
+"3623","Italy","Europe","Benin","Africa",1978,0.05
+"3644","Denmark","Europe","Benin","Africa",1978,1.66
+"4012","Japan","Asia","Bhutan","Asia",1978,0.09
+"4013","Australia","Oceania","Bhutan","Asia",1978,0.16
+"4216","United Kingdom","Europe","Bhutan","Asia",1978,0.08
+"4247","Switzerland","Europe","Bhutan","Asia",1978,0.25
+"4321","Denmark","Europe","Bhutan","Asia",1978,0.1
+"4442","New Zealand","Oceania","Bhutan","Asia",1978,0.02
+"4504","United Kingdom","Europe","Bolivia","South America",1978,2.03
+"4510","Canada","North America","Bolivia","South America",1978,0.94
+"4566","Belgium","Europe","Bolivia","South America",1978,3.83
+"4587","United States","North America","Bolivia","South America",1978,45
+"4811","Austria","Europe","Bolivia","South America",1978,0.61
+"4869","Denmark","Europe","Bolivia","South America",1978,1.81
+"4926","Italy","Europe","Bolivia","South America",1978,0.26
+"4942","Switzerland","Europe","Bolivia","South America",1978,1.88
+"5097","France","Europe","Bolivia","South America",1978,0.75
+"5128","Germany","Europe","Bolivia","South America",1978,12.48
+"5256","Netherlands","Europe","Bolivia","South America",1978,1.53
+"5293","Japan","Asia","Bolivia","South America",1978,14.47
+"5427","Canada","North America","Burkina Faso","Africa",1978,3.57
+"5468","Denmark","Europe","Burkina Faso","Africa",1978,0.31
+"5540","United States","North America","Burkina Faso","Africa",1978,20
+"5576","Norway","Europe","Burkina Faso","Africa",1978,0.11
+"5591","Japan","Asia","Burkina Faso","Africa",1978,0.26
+"5608","Germany","Europe","Burkina Faso","Africa",1978,16.71
+"5682","Belgium","Europe","Burkina Faso","Africa",1978,1.03
+"5741","Switzerland","Europe","Burkina Faso","Africa",1978,2.92
+"5789","France","Europe","Burkina Faso","Africa",1978,32.72
+"5837","Netherlands","Europe","Burkina Faso","Africa",1978,18.36
+"6024","United Kingdom","Europe","Burkina Faso","Africa",1978,0.05
+"6132","Italy","Europe","Burkina Faso","Africa",1978,0.05
+"6165","Austria","Europe","Burkina Faso","Africa",1978,0.54
+"6324","Canada","North America","Burundi","Africa",1978,0.02
+"6326","Switzerland","Europe","Burundi","Africa",1978,0.66
+"6340","United Kingdom","Europe","Burundi","Africa",1978,0.01
+"6358","Netherlands","Europe","Burundi","Africa",1978,0.3
+"6369","Denmark","Europe","Burundi","Africa",1978,0.06
+"6381","Belgium","Europe","Burundi","Africa",1978,20.88
+"6560","Italy","Europe","Burundi","Africa",1978,0.25
+"6676","United States","North America","Burundi","Africa",1978,3
+"6771","Austria","Europe","Burundi","Africa",1978,0.05
+"7005","Germany","Europe","Burundi","Africa",1978,6.25
+"7046","France","Europe","Burundi","Africa",1978,7.16
+"7084","Norway","Europe","Cabo Verde","Africa",1978,0.65
+"7196","France","Europe","Cabo Verde","Africa",1978,1.8
+"7201","Sweden","Europe","Cabo Verde","Africa",1978,5.8
+"7207","United States","North America","Cabo Verde","Africa",1978,6
+"7325","Germany","Europe","Cabo Verde","Africa",1978,2.92
+"7364","Netherlands","Europe","Cabo Verde","Africa",1978,3.72
+"7368","Canada","North America","Cabo Verde","Africa",1978,0.57
+"7395","Switzerland","Europe","Cabo Verde","Africa",1978,0.47
+"7473","Italy","Europe","Cabo Verde","Africa",1978,0.08
+"7543","Belgium","Europe","Cabo Verde","Africa",1978,1.17
+"7648","United Kingdom","Europe","Cabo Verde","Africa",1978,1.84
+"7726","Austria","Europe","Cabo Verde","Africa",1978,0.01
+"7860","New Zealand","Oceania","Cambodia","Asia",1978,0.02
+"8028","Japan","Asia","Cambodia","Asia",1978,0.15
+"8064","Switzerland","Europe","Cambodia","Asia",1978,0.01
+"8132","Belgium","Europe","Cambodia","Asia",1978,0.02
+"8567","Austria","Europe","Cambodia","Asia",1978,0.02
+"8795","France","Europe","Cameroon","Africa",1978,49.32
+"8815","Germany","Europe","Cameroon","Africa",1978,36.07
+"8835","Ireland","Europe","Cameroon","Africa",1978,0.01
+"8872","Belgium","Europe","Cameroon","Africa",1978,2.5
+"8978","Canada","North America","Cameroon","Africa",1978,13.39
+"9066","Netherlands","Europe","Cameroon","Africa",1978,3.22
+"9082","Japan","Asia","Cameroon","Africa",1978,0.05
+"9088","Austria","Europe","Cameroon","Africa",1978,0.06
+"9117","United States","North America","Cameroon","Africa",1978,4
+"9216","Switzerland","Europe","Cameroon","Africa",1978,2
+"9301","Norway","Europe","Cameroon","Africa",1978,1.56
+"9381","United Kingdom","Europe","Cameroon","Africa",1978,1.64
+"9396","Denmark","Europe","Cameroon","Africa",1978,3.62
+"9495","Canada","North America","Central African Republic","Africa",1978,0.11
+"9611","Belgium","Europe","Central African Republic","Africa",1978,0.49
+"9616","Netherlands","Europe","Central African Republic","Africa",1978,0.17
+"9696","Japan","Asia","Central African Republic","Africa",1978,0.11
+"9736","Austria","Europe","Central African Republic","Africa",1978,0.07
+"9877","France","Europe","Central African Republic","Africa",1978,24.32
+"9963","Switzerland","Europe","Central African Republic","Africa",1978,0.11
+"10069","Germany","Europe","Central African Republic","Africa",1978,4.11
+"10128","Italy","Europe","Central African Republic","Africa",1978,0.17
+"10180","Netherlands","Europe","Chad","Africa",1978,1.76
+"10213","France","Europe","Chad","Africa",1978,48.54
+"10264","Norway","Europe","Chad","Africa",1978,3.5
+"10269","Italy","Europe","Chad","Africa",1978,0.09
+"10387","Canada","North America","Chad","Africa",1978,0.24
+"10411","Denmark","Europe","Chad","Africa",1978,0.05
+"10417","Japan","Asia","Chad","Africa",1978,0.02
+"10461","Germany","Europe","Chad","Africa",1978,2.74
+"10539","Switzerland","Europe","Chad","Africa",1978,1.72
+"10692","United States","North America","Chad","Africa",1978,12
+"10798","Belgium","Europe","Chad","Africa",1978,0.43
+"10961","Italy","Europe","Comoros","Africa",1978,0.29
+"11005","France","Europe","Comoros","Africa",1978,1.26
+"11016","Switzerland","Europe","Comoros","Africa",1978,0.17
+"11047","Belgium","Europe","Comoros","Africa",1978,0.05
+"11131","Canada","North America","Comoros","Africa",1978,0.04
+"11145","Netherlands","Europe","Comoros","Africa",1978,0.01
+"11276","Switzerland","Europe","Congo","Africa",1978,0.08
+"11309","Belgium","Europe","Congo","Africa",1978,0.4
+"11665","Canada","North America","Congo","Africa",1978,2.41
+"11752","France","Europe","Congo","Africa",1978,40.28
+"11760","Italy","Europe","Congo","Africa",1978,0.03
+"11768","Netherlands","Europe","Congo","Africa",1978,0.4
+"11899","Germany","Europe","Congo","Africa",1978,1.02
+"11910","United Kingdom","Europe","Congo","Africa",1978,0.1
+"12004","Australia","Oceania","Cote d'Ivoire","Africa",1978,0.01
+"12113","Italy","Europe","Cote d'Ivoire","Africa",1978,0.05
+"12119","United Kingdom","Europe","Cote d'Ivoire","Africa",1978,0.25
+"12339","France","Europe","Cote d'Ivoire","Africa",1978,51.36
+"12484","Canada","North America","Cote d'Ivoire","Africa",1978,12.39
+"12509","Belgium","Europe","Cote d'Ivoire","Africa",1978,4.21
+"12514","Netherlands","Europe","Cote d'Ivoire","Africa",1978,1.34
+"12533","Austria","Europe","Cote d'Ivoire","Africa",1978,0.16
+"12643","Norway","Europe","Cote d'Ivoire","Africa",1978,0.2
+"12649","Japan","Asia","Cote d'Ivoire","Africa",1978,0.33
+"12657","Switzerland","Europe","Cote d'Ivoire","Africa",1978,0.13
+"12700","Germany","Europe","Cote d'Ivoire","Africa",1978,16.46
+"13368","Norway","Europe","Democratic Republic of the Congo","Africa",1978,0.19
+"13458","United Kingdom","Europe","Democratic Republic of the Congo","Africa",1978,0.28
+"13511","France","Europe","Democratic Republic of the Congo","Africa",1978,24.33
+"13556","Netherlands","Europe","Democratic Republic of the Congo","Africa",1978,1.64
+"13616","Switzerland","Europe","Democratic Republic of the Congo","Africa",1978,1.28
+"13634","United States","North America","Democratic Republic of the Congo","Africa",1978,21
+"13685","Belgium","Europe","Democratic Republic of the Congo","Africa",1978,128.96
+"13697","Austria","Europe","Democratic Republic of the Congo","Africa",1978,0.1
+"13749","Japan","Asia","Democratic Republic of the Congo","Africa",1978,1.9
+"13838","Canada","North America","Democratic Republic of the Congo","Africa",1978,7.5
+"14000","Denmark","Europe","Democratic Republic of the Congo","Africa",1978,1.29
+"14025","Italy","Europe","Democratic Republic of the Congo","Africa",1978,0.34
+"14109","Germany","Europe","Democratic Republic of the Congo","Africa",1978,15.18
+"14126","France","Europe","Djibouti","Africa",1978,27.91
+"14195","Belgium","Europe","Djibouti","Africa",1978,0.05
+"14333","Japan","Asia","Djibouti","Africa",1978,0.02
+"14387","United Kingdom","Europe","Djibouti","Africa",1978,0.09
+"14426","United States","North America","Djibouti","Africa",1978,1
+"14436","Switzerland","Europe","Djibouti","Africa",1978,0.06
+"14470","Germany","Europe","Djibouti","Africa",1978,0.18
+"14597","France","Europe","Egypt","Africa",1978,19.08
+"14618","Norway","Europe","Egypt","Africa",1978,0.28
+"14637","New Zealand","Oceania","Egypt","Africa",1978,0.06
+"14693","Switzerland","Europe","Egypt","Africa",1978,0.22
+"14773","Japan","Asia","Egypt","Africa",1978,118.75
+"14984","Netherlands","Europe","Egypt","Africa",1978,7.31
+"15052","Denmark","Europe","Egypt","Africa",1978,7.15
+"15178","Canada","North America","Egypt","Africa",1978,2.29
+"15191","United States","North America","Egypt","Africa",1978,625
+"15224","Germany","Europe","Egypt","Africa",1978,67.38
+"15228","Sweden","Europe","Egypt","Africa",1978,0.44
+"15241","United Kingdom","Europe","Egypt","Africa",1978,7.05
+"15245","Belgium","Europe","Egypt","Africa",1978,0.26
+"15288","Austria","Europe","Egypt","Africa",1978,4.44
+"15463","Finland","Europe","Egypt","Africa",1978,0.23
+"15474","Australia","Oceania","Egypt","Africa",1978,2.66
+"15570","United States","North America","El Salvador","North America",1978,10
+"15588","United Kingdom","Europe","El Salvador","North America",1978,0.79
+"15744","Japan","Asia","El Salvador","North America",1978,12.73
+"15863","Canada","North America","El Salvador","North America",1978,0.28
+"15988","Italy","Europe","El Salvador","North America",1978,0.18
+"16067","Switzerland","Europe","El Salvador","North America",1978,0.02
+"16134","Austria","Europe","El Salvador","North America",1978,0.01
+"16228","Germany","Europe","El Salvador","North America",1978,1.6
+"16252","Netherlands","Europe","El Salvador","North America",1978,0.6
+"16255","Belgium","Europe","El Salvador","North America",1978,0.08
+"17187","Denmark","Europe","Ethiopia","Africa",1978,0.25
+"17363","Austria","Europe","Ethiopia","Africa",1978,0.03
+"17574","Sweden","Europe","Ethiopia","Africa",1978,13.18
+"17743","Canada","North America","Ethiopia","Africa",1978,0.64
+"17759","Finland","Europe","Ethiopia","Africa",1978,0.19
+"17788","Japan","Asia","Ethiopia","Africa",1978,3.05
+"17821","Italy","Europe","Ethiopia","Africa",1978,1.89
+"17830","Norway","Europe","Ethiopia","Africa",1978,0.37
+"17856","Poland","Europe","Ethiopia","Africa",1978,0.4
+"17889","United States","North America","Ethiopia","Africa",1978,11
+"17978","Switzerland","Europe","Ethiopia","Africa",1978,0.54
+"18047","Belgium","Europe","Ethiopia","Africa",1978,0.76
+"18076","Germany","Europe","Ethiopia","Africa",1978,12.38
+"18098","United Kingdom","Europe","Ethiopia","Africa",1978,5.31
+"18138","Australia","Oceania","Ethiopia","Africa",1978,1.87
+"18229","Netherlands","Europe","Ethiopia","Africa",1978,4.54
+"18464","Ireland","Europe","Gambia","Africa",1978,0.03
+"18506","Austria","Europe","Gambia","Africa",1978,0.02
+"18516","Switzerland","Europe","Gambia","Africa",1978,0.07
+"18538","Belgium","Europe","Gambia","Africa",1978,0.18
+"18575","United Kingdom","Europe","Gambia","Africa",1978,6.8
+"18712","United States","North America","Gambia","Africa",1978,1
+"18777","Netherlands","Europe","Gambia","Africa",1978,0.47
+"18840","Denmark","Europe","Gambia","Africa",1978,0.41
+"18944","Germany","Europe","Gambia","Africa",1978,4.64
+"18975","Canada","North America","Gambia","Africa",1978,1.09
+"18978","Australia","Oceania","Gambia","Africa",1978,0.06
+"18979","Japan","Asia","Gambia","Africa",1978,0.03
+"19515","Norway","Europe","Ghana","Africa",1978,0.39
+"19782","Germany","Europe","Ghana","Africa",1978,10.46
+"19795","United Kingdom","Europe","Ghana","Africa",1978,7.63
+"19957","United States","North America","Ghana","Africa",1978,8
+"20089","Italy","Europe","Ghana","Africa",1978,0.61
+"20154","Netherlands","Europe","Ghana","Africa",1978,3.27
+"20181","France","Europe","Ghana","Africa",1978,1.3
+"20263","Denmark","Europe","Ghana","Africa",1978,0.13
+"20266","Japan","Asia","Ghana","Africa",1978,7.94
+"20283","Australia","Oceania","Ghana","Africa",1978,1.31
+"20301","Switzerland","Europe","Ghana","Africa",1978,0.14
+"20344","Canada","North America","Ghana","Africa",1978,15.56
+"20399","Belgium","Europe","Ghana","Africa",1978,0.1
+"20402","Austria","Europe","Ghana","Africa",1978,0.34
+"20481","Finland","Europe","Ghana","Africa",1978,0.03
+"20485","Switzerland","Europe","Guatemala","North America",1978,0.66
+"20670","Japan","Asia","Guatemala","North America",1978,2.23
+"20805","Denmark","Europe","Guatemala","North America",1978,0.04
+"20901","United States","North America","Guatemala","North America",1978,13
+"20909","Italy","Europe","Guatemala","North America",1978,0.12
+"20947","Austria","Europe","Guatemala","North America",1978,0.92
+"20959","Canada","North America","Guatemala","North America",1978,3.96
+"21152","United Kingdom","Europe","Guatemala","North America",1978,0.07
+"21214","Belgium","Europe","Guatemala","North America",1978,0.31
+"21251","Netherlands","Europe","Guatemala","North America",1978,0.74
+"21299","Germany","Europe","Guatemala","North America",1978,4.2
+"21483","Japan","Asia","Guinea","Africa",1978,1.47
+"21552","Belgium","Europe","Guinea","Africa",1978,0.06
+"21560","United States","North America","Guinea","Africa",1978,11
+"21575","Germany","Europe","Guinea","Africa",1978,0.47
+"21770","Italy","Europe","Guinea","Africa",1978,0.13
+"21809","Switzerland","Europe","Guinea","Africa",1978,0.01
+"21965","Canada","North America","Guinea","Africa",1978,0.19
+"21979","Netherlands","Europe","Guinea","Africa",1978,0.82
+"22148","United States","North America","Guinea-Bissau","Africa",1978,5
+"22191","Norway","Europe","Guinea-Bissau","Africa",1978,2.98
+"22242","France","Europe","Guinea-Bissau","Africa",1978,1.43
+"22252","Germany","Europe","Guinea-Bissau","Africa",1978,2.45
+"22405","United Kingdom","Europe","Guinea-Bissau","Africa",1978,3.64
+"22412","Switzerland","Europe","Guinea-Bissau","Africa",1978,0.07
+"22475","Austria","Europe","Guinea-Bissau","Africa",1978,0.02
+"22492","Denmark","Europe","Guinea-Bissau","Africa",1978,2.95
+"22562","Italy","Europe","Guinea-Bissau","Africa",1978,0.06
+"22577","Netherlands","Europe","Guinea-Bissau","Africa",1978,6.72
+"22578","Sweden","Europe","Guinea-Bissau","Africa",1978,11.31
+"22601","Canada","North America","Guinea-Bissau","Africa",1978,0.02
+"22703","Belgium","Europe","Guinea-Bissau","Africa",1978,0.09
+"22723","Finland","Europe","Guinea-Bissau","Africa",1978,0.02
+"22827","Germany","Europe","Guyana","South America",1978,0.01
+"22922","Belgium","Europe","Guyana","South America",1978,0.06
+"22957","United States","North America","Guyana","South America",1978,5
+"23086","Finland","Europe","Guyana","South America",1978,0.05
+"23160","Switzerland","Europe","Guyana","South America",1978,0.02
+"23184","United Kingdom","Europe","Guyana","South America",1978,9.35
+"23205","New Zealand","Oceania","Guyana","South America",1978,0.2
+"23217","Netherlands","Europe","Guyana","South America",1978,0.2
+"23243","Australia","Oceania","Guyana","South America",1978,0.09
+"23249","Canada","North America","Guyana","South America",1978,2.79
+"23481","France","Europe","Haiti","North America",1978,2.35
+"23497","Belgium","Europe","Haiti","North America",1978,1.56
+"23504","Austria","Europe","Haiti","North America",1978,0.02
+"23652","Germany","Europe","Haiti","North America",1978,9.18
+"23655","Switzerland","Europe","Haiti","North America",1978,0.11
+"23795","United Kingdom","Europe","Haiti","North America",1978,0.01
+"23805","Canada","North America","Haiti","North America",1978,8.28
+"23922","Italy","Europe","Haiti","North America",1978,0.03
+"23953","United States","North America","Haiti","North America",1978,27
+"23970","Netherlands","Europe","Haiti","North America",1978,1.23
+"24041","Austria","Europe","Honduras","North America",1978,0.06
+"24264","Netherlands","Europe","Honduras","North America",1978,0.89
+"24271","United States","North America","Honduras","North America",1978,16
+"24280","Italy","Europe","Honduras","North America",1978,0.08
+"24411","Canada","North America","Honduras","North America",1978,7.45
+"24534","Germany","Europe","Honduras","North America",1978,3.44
+"24566","Japan","Asia","Honduras","North America",1978,4.94
+"24580","United Kingdom","Europe","Honduras","North America",1978,0.6
+"24673","Belgium","Europe","Honduras","North America",1978,0.13
+"24818","Switzerland","Europe","Honduras","North America",1978,0.21
+"24820","Denmark","Europe","Honduras","North America",1978,0.09
+"24890","France","Europe","India","Asia",1978,20
+"25014","Norway","Europe","India","Asia",1978,21.22
+"25084","United States","North America","India","Asia",1978,83
+"25186","Germany","Europe","India","Asia",1978,91.24
+"25233","Ireland","Europe","India","Asia",1978,0.03
+"25407","Hungary","Europe","India","Asia",1978,1.5
+"25408","Australia","Oceania","India","Asia",1978,2.5
+"25468","Denmark","Europe","India","Asia",1978,22.29
+"25504","Sweden","Europe","India","Asia",1978,52.02
+"25530","Austria","Europe","India","Asia",1978,0.23
+"25568","United Kingdom","Europe","India","Asia",1978,187.22
+"25588","Canada","North America","India","Asia",1978,46.33
+"25602","New Zealand","Oceania","India","Asia",1978,0.67
+"25675","Switzerland","Europe","India","Asia",1978,9.02
+"25769","Belgium","Europe","India","Asia",1978,12.27
+"25804","Japan","Asia","India","Asia",1978,44.76
+"25866","Netherlands","Europe","India","Asia",1978,79.03
+"25941","United States","North America","Indonesia","Oceania",1978,142
+"26218","Australia","Oceania","Indonesia","Oceania",1978,36.01
+"26244","Netherlands","Europe","Indonesia","Oceania",1978,43.08
+"26272","Switzerland","Europe","Indonesia","Oceania",1978,1.36
+"26317","France","Europe","Indonesia","Oceania",1978,30.69
+"26380","Austria","Europe","Indonesia","Oceania",1978,0.38
+"26419","Belgium","Europe","Indonesia","Oceania",1978,4.93
+"26473","Canada","North America","Indonesia","Oceania",1978,14.41
+"26566","United Kingdom","Europe","Indonesia","Oceania",1978,11.33
+"26573","New Zealand","Oceania","Indonesia","Oceania",1978,2.78
+"26589","Japan","Asia","Indonesia","Oceania",1978,227.59
+"26704","Norway","Europe","Indonesia","Oceania",1978,2.69
+"26759","Germany","Europe","Indonesia","Oceania",1978,26.06
+"26777","Finland","Europe","Indonesia","Oceania",1978,0.03
+"26814","France","Europe","Kenya","Africa",1978,5.15
+"26959","Canada","North America","Kenya","Africa",1978,5.71
+"27083","Sweden","Europe","Kenya","Africa",1978,14.26
+"27099","Australia","Oceania","Kenya","Africa",1978,1.9
+"27196","Japan","Asia","Kenya","Africa",1978,10.32
+"27201","United States","North America","Kenya","Africa",1978,11
+"27302","Ireland","Europe","Kenya","Africa",1978,0.06
+"27323","Denmark","Europe","Kenya","Africa",1978,14.62
+"27338","Netherlands","Europe","Kenya","Africa",1978,24.32
+"27342","Finland","Europe","Kenya","Africa",1978,1.29
+"27355","Austria","Europe","Kenya","Africa",1978,1.54
+"27456","Germany","Europe","Kenya","Africa",1978,40.05
+"27487","Norway","Europe","Kenya","Africa",1978,13.17
+"27571","New Zealand","Oceania","Kenya","Africa",1978,0.01
+"27714","United Kingdom","Europe","Kenya","Africa",1978,40.94
+"27717","Belgium","Europe","Kenya","Africa",1978,0.34
+"27756","Switzerland","Europe","Kenya","Africa",1978,2.19
+"27935","Japan","Asia","Kiribati","Oceania",1978,0.84
+"27995","New Zealand","Oceania","Kiribati","Oceania",1978,0.17
+"28011","Australia","Oceania","Kiribati","Oceania",1978,2.25
+"28128","United Kingdom","Europe","Kiribati","Oceania",1978,6.74
+"28887","Norway","Europe","Lao People's Democratic Republic","Asia",1978,1.34
+"28923","United Kingdom","Europe","Lao People's Democratic Republic","Asia",1978,1.75
+"29006","France","Europe","Lao People's Democratic Republic","Asia",1978,3.02
+"29051","New Zealand","Oceania","Lao People's Democratic Republic","Asia",1978,0.01
+"29123","Japan","Asia","Lao People's Democratic Republic","Asia",1978,6.13
+"29186","Austria","Europe","Lao People's Democratic Republic","Asia",1978,0.01
+"29255","Switzerland","Europe","Lao People's Democratic Republic","Asia",1978,0.16
+"29298","Netherlands","Europe","Lao People's Democratic Republic","Asia",1978,6.86
+"29315","Italy","Europe","Lao People's Democratic Republic","Asia",1978,0.02
+"29389","Sweden","Europe","Lao People's Democratic Republic","Asia",1978,9.86
+"29431","Australia","Oceania","Lao People's Democratic Republic","Asia",1978,1.49
+"29556","Belgium","Europe","Lao People's Democratic Republic","Asia",1978,0.03
+"29574","Denmark","Europe","Lao People's Democratic Republic","Asia",1978,0.91
+"29614","Germany","Europe","Lao People's Democratic Republic","Asia",1978,11
+"29642","Ireland","Europe","Lesotho","Africa",1978,1.23
+"29765","Austria","Europe","Lesotho","Africa",1978,0.04
+"29860","United Kingdom","Europe","Lesotho","Africa",1978,9.94
+"29861","Sweden","Europe","Lesotho","Africa",1978,1.41
+"29887","Norway","Europe","Lesotho","Africa",1978,1.1
+"30012","Denmark","Europe","Lesotho","Africa",1978,1.27
+"30088","United States","North America","Lesotho","Africa",1978,5
+"30099","Canada","North America","Lesotho","Africa",1978,4
+"30201","Japan","Asia","Lesotho","Africa",1978,0.52
+"30249","Switzerland","Europe","Lesotho","Africa",1978,0.67
+"30250","Belgium","Europe","Lesotho","Africa",1978,0.19
+"30343","Australia","Oceania","Lesotho","Africa",1978,0.09
+"30346","Finland","Europe","Lesotho","Africa",1978,0.05
+"30381","Germany","Europe","Lesotho","Africa",1978,3.65
+"30382","Netherlands","Europe","Lesotho","Africa",1978,1.18
+"30476","Switzerland","Europe","Liberia","Africa",1978,0.05
+"30490","Italy","Europe","Liberia","Africa",1978,0.17
+"30572","Netherlands","Europe","Liberia","Africa",1978,0.95
+"30598","Denmark","Europe","Liberia","Africa",1978,0.02
+"30754","Japan","Asia","Liberia","Africa",1978,1.78
+"30787","Belgium","Europe","Liberia","Africa",1978,0.05
+"30827","Germany","Europe","Liberia","Africa",1978,8.65
+"30847","United Kingdom","Europe","Liberia","Africa",1978,0.31
+"30925","United States","North America","Liberia","Africa",1978,10
+"31225","France","Europe","Madagascar","Africa",1978,19.03
+"31287","Italy","Europe","Madagascar","Africa",1978,0.08
+"31317","Norway","Europe","Madagascar","Africa",1978,2.26
+"31373","United States","North America","Madagascar","Africa",1978,2
+"31449","United Kingdom","Europe","Madagascar","Africa",1978,0.32
+"31456","Japan","Asia","Madagascar","Africa",1978,5.84
+"31523","Belgium","Europe","Madagascar","Africa",1978,0.23
+"31575","Canada","North America","Madagascar","Africa",1978,2.74
+"31641","Switzerland","Europe","Madagascar","Africa",1978,7.5
+"31711","Netherlands","Europe","Madagascar","Africa",1978,0.24
+"32016","Switzerland","Europe","Malawi","Africa",1978,0.03
+"32168","Australia","Oceania","Malawi","Africa",1978,0.08
+"32217","Italy","Europe","Malawi","Africa",1978,0.01
+"32304","Denmark","Europe","Malawi","Africa",1978,1.46
+"32381","Japan","Asia","Malawi","Africa",1978,2.73
+"32401","Finland","Europe","Malawi","Africa",1978,0.02
+"32425","Canada","North America","Malawi","Africa",1978,12.71
+"32505","United States","North America","Malawi","Africa",1978,5
+"32576","Belgium","Europe","Malawi","Africa",1978,0.04
+"32579","New Zealand","Oceania","Malawi","Africa",1978,0.04
+"32604","United Kingdom","Europe","Malawi","Africa",1978,20.2
+"32682","Germany","Europe","Malawi","Africa",1978,11.9
+"32719","Netherlands","Europe","Malawi","Africa",1978,2.2
+"32769","Austria","Europe","Malawi","Africa",1978,0.02
+"32926","Germany","Europe","Mali","Africa",1978,22.06
+"33028","Belgium","Europe","Mali","Africa",1978,1.47
+"33096","United States","North America","Mali","Africa",1978,15
+"33174","United Kingdom","Europe","Mali","Africa",1978,0.28
+"33194","Switzerland","Europe","Mali","Africa",1978,1.32
+"33222","France","Europe","Mali","Africa",1978,32.41
+"33283","Norway","Europe","Mali","Africa",1978,1.65
+"33424","Canada","North America","Mali","Africa",1978,4.36
+"33449","Italy","Europe","Mali","Africa",1978,0.04
+"33551","Austria","Europe","Mali","Africa",1978,0.02
+"33582","Japan","Asia","Mali","Africa",1978,6.07
+"33594","Netherlands","Europe","Mali","Africa",1978,8.35
+"33774","Belgium","Europe","Mauritania","Africa",1978,0.92
+"33780","France","Europe","Mauritania","Africa",1978,12.72
+"33795","Austria","Europe","Mauritania","Africa",1978,0.03
+"33815","Germany","Europe","Mauritania","Africa",1978,16.18
+"33904","Finland","Europe","Mauritania","Africa",1978,0.12
+"34005","United States","North America","Mauritania","Africa",1978,5
+"34076","Switzerland","Europe","Mauritania","Africa",1978,0.52
+"34158","Netherlands","Europe","Mauritania","Africa",1978,1.85
+"34205","Canada","North America","Mauritania","Africa",1978,1.17
+"34284","Japan","Asia","Mauritania","Africa",1978,0.05
+"34326","United Kingdom","Europe","Mauritania","Africa",1978,1.01
+"35328","Hungary","Europe","Mongolia","Asia",1978,1.8
+"35424","Poland","Europe","Mongolia","Asia",1978,1.6
+"35557","United Kingdom","Europe","Morocco","Africa",1978,0.06
+"35611","Belgium","Europe","Morocco","Africa",1978,14.25
+"35657","Italy","Europe","Morocco","Africa",1978,1.11
+"35826","France","Europe","Morocco","Africa",1978,104.68
+"35837","Poland","Europe","Morocco","Africa",1978,2.5
+"35868","Switzerland","Europe","Morocco","Africa",1978,0.05
+"36202","Netherlands","Europe","Morocco","Africa",1978,0.52
+"36265","United States","North America","Morocco","Africa",1978,23
+"36273","Japan","Asia","Morocco","Africa",1978,0.78
+"36315","Germany","Europe","Morocco","Africa",1978,31.29
+"36384","Canada","North America","Morocco","Africa",1978,4.58
+"36390","Austria","Europe","Morocco","Africa",1978,0.04
+"36487","United Kingdom","Europe","Mozambique","Africa",1978,11.2
+"36537","Switzerland","Europe","Mozambique","Africa",1978,0.2
+"36538","Italy","Europe","Mozambique","Africa",1978,2.05
+"36559","Germany","Europe","Mozambique","Africa",1978,0.35
+"36704","Sweden","Europe","Mozambique","Africa",1978,25.64
+"36981","Norway","Europe","Mozambique","Africa",1978,8.36
+"37055","Finland","Europe","Mozambique","Africa",1978,1.96
+"37100","Denmark","Europe","Mozambique","Africa",1978,7.86
+"37122","Netherlands","Europe","Mozambique","Africa",1978,6.61
+"37184","Belgium","Europe","Mozambique","Africa",1978,0.19
+"37195","Canada","North America","Mozambique","Africa",1978,1.84
+"37229","United States","North America","Mozambique","Africa",1978,9
+"37287","Austria","Europe","Mozambique","Africa",1978,0.04
+"37544","Japan","Asia","Myanmar","Asia",1978,104.02
+"37562","Netherlands","Europe","Myanmar","Asia",1978,13.3
+"37761","Germany","Europe","Myanmar","Asia",1978,15.77
+"37903","Norway","Europe","Myanmar","Asia",1978,0.56
+"37906","Australia","Oceania","Myanmar","Asia",1978,6.71
+"37912","New Zealand","Oceania","Myanmar","Asia",1978,0.09
+"37920","United States","North America","Myanmar","Asia",1978,2
+"37945","Italy","Europe","Myanmar","Asia",1978,0.03
+"37997","United Kingdom","Europe","Myanmar","Asia",1978,2.64
+"38001","Switzerland","Europe","Myanmar","Asia",1978,0.04
+"38039","Denmark","Europe","Myanmar","Asia",1978,5.63
+"38061","France","Europe","Myanmar","Asia",1978,3.3
+"38103","Canada","North America","Myanmar","Asia",1978,2.72
+"38318","Austria","Europe","Nepal","Asia",1978,0.05
+"38483","Japan","Asia","Nepal","Asia",1978,9.53
+"38593","Belgium","Europe","Nepal","Asia",1978,0.01
+"38652","United Kingdom","Europe","Nepal","Asia",1978,8.33
+"38659","Canada","North America","Nepal","Asia",1978,2.42
+"38663","New Zealand","Oceania","Nepal","Asia",1978,0.45
+"38683","Switzerland","Europe","Nepal","Asia",1978,4.26
+"38711","Netherlands","Europe","Nepal","Asia",1978,0.83
+"38743","United States","North America","Nepal","Asia",1978,4
+"38818","Australia","Oceania","Nepal","Asia",1978,0.84
+"38837","Germany","Europe","Nepal","Asia",1978,8.09
+"38964","Norway","Europe","Nepal","Asia",1978,0.57
+"38981","Finland","Europe","Nepal","Asia",1978,0.01
+"39049","Denmark","Europe","Nepal","Asia",1978,0.26
+"39118","Japan","Asia","Nicaragua","North America",1978,0.34
+"39149","Germany","Europe","Nicaragua","North America",1978,1.03
+"39239","United States","North America","Nicaragua","North America",1978,24
+"39273","Switzerland","Europe","Nicaragua","North America",1978,0.05
+"39450","Netherlands","Europe","Nicaragua","North America",1978,0.4
+"39467","Italy","Europe","Nicaragua","North America",1978,0.16
+"39473","Denmark","Europe","Nicaragua","North America",1978,0.04
+"39648","Austria","Europe","Nicaragua","North America",1978,0.02
+"39812","United Kingdom","Europe","Nicaragua","North America",1978,0.36
+"39849","Canada","North America","Nicaragua","North America",1978,0.07
+"39946","France","Europe","Niger","Africa",1978,29.15
+"40098","Austria","Europe","Niger","Africa",1978,0.12
+"40214","Germany","Europe","Niger","Africa",1978,16.21
+"40222","United States","North America","Niger","Africa",1978,9
+"40323","Netherlands","Europe","Niger","Africa",1978,2.58
+"40341","Switzerland","Europe","Niger","Africa",1978,1.41
+"40358","Canada","North America","Niger","Africa",1978,3.18
+"40497","Belgium","Europe","Niger","Africa",1978,3.76
+"40504","Norway","Europe","Niger","Africa",1978,1.05
+"40545","Denmark","Europe","Niger","Africa",1978,1.52
+"40546","Italy","Europe","Niger","Africa",1978,0.04
+"40589","Japan","Asia","Niger","Africa",1978,9.79
+"40805","Finland","Europe","Nigeria","Africa",1978,0.06
+"40816","Austria","Europe","Nigeria","Africa",1978,0.33
+"40834","Switzerland","Europe","Nigeria","Africa",1978,0.01
+"40945","Belgium","Europe","Nigeria","Africa",1978,0.55
+"41036","Norway","Europe","Nigeria","Africa",1978,1.78
+"41054","Netherlands","Europe","Nigeria","Africa",1978,2.71
+"41323","Japan","Asia","Nigeria","Africa",1978,9.72
+"41340","United Kingdom","Europe","Nigeria","Africa",1978,5.66
+"41417","Australia","Oceania","Nigeria","Africa",1978,0.22
+"41540","Canada","North America","Nigeria","Africa",1978,1.29
+"41552","Ireland","Europe","Nigeria","Africa",1978,0.03
+"41645","Sweden","Europe","Nigeria","Africa",1978,0.22
+"41667","Germany","Europe","Nigeria","Africa",1978,1.57
+"41796","Netherlands","Europe","Pakistan","Africa",1978,36.85
+"41812","Switzerland","Europe","Pakistan","Africa",1978,3.31
+"41864","Australia","Oceania","Pakistan","Africa",1978,3.55
+"42036","Poland","Europe","Pakistan","Africa",1978,0.9
+"42062","France","Europe","Pakistan","Africa",1978,24.95
+"42068","New Zealand","Oceania","Pakistan","Africa",1978,0.02
+"42112","United Kingdom","Europe","Pakistan","Africa",1978,30.05
+"42140","Austria","Europe","Pakistan","Africa",1978,0.18
+"42307","Canada","North America","Pakistan","Africa",1978,73.23
+"42335","Italy","Europe","Pakistan","Africa",1978,7.02
+"42410","Belgium","Europe","Pakistan","Africa",1978,4.76
+"42470","United States","North America","Pakistan","Africa",1978,80
+"42554","Japan","Asia","Pakistan","Africa",1978,46.89
+"42594","Germany","Europe","Pakistan","Africa",1978,42.6
+"42632","Sweden","Europe","Pakistan","Africa",1978,9.95
+"42651","Norway","Europe","Pakistan","Africa",1978,13.17
+"42664","Denmark","Europe","Pakistan","Africa",1978,2.88
+"42728","Netherlands","Europe","Papua New Guinea","Oceania",1978,0.14
+"42821","Italy","Europe","Papua New Guinea","Oceania",1978,0.01
+"42989","Austria","Europe","Papua New Guinea","Oceania",1978,0.43
+"43029","Germany","Europe","Papua New Guinea","Oceania",1978,0.62
+"43081","Canada","North America","Papua New Guinea","Oceania",1978,0.03
+"43118","New Zealand","Oceania","Papua New Guinea","Oceania",1978,2.91
+"43198","Norway","Europe","Papua New Guinea","Oceania",1978,0.36
+"43205","United Kingdom","Europe","Papua New Guinea","Oceania",1978,0.44
+"43276","Australia","Oceania","Papua New Guinea","Oceania",1978,266.88
+"43358","Belgium","Europe","Paraguay","South America",1978,0.26
+"43396","Netherlands","Europe","Paraguay","South America",1978,0.32
+"43434","Austria","Europe","Paraguay","South America",1978,0.06
+"43439","United Kingdom","Europe","Paraguay","South America",1978,0.43
+"43502","Italy","Europe","Paraguay","South America",1978,0.05
+"43625","Germany","Europe","Paraguay","South America",1978,3.43
+"43634","Switzerland","Europe","Paraguay","South America",1978,0.73
+"43679","United States","North America","Paraguay","South America",1978,3
+"43719","Japan","Asia","Paraguay","South America",1978,12.52
+"44124","Australia","Oceania","Philippines","Oceania",1978,7.19
+"44153","Netherlands","Europe","Philippines","Oceania",1978,3.55
+"44198","Italy","Europe","Philippines","Oceania",1978,0.1
+"44278","Belgium","Europe","Philippines","Oceania",1978,0.86
+"44281","Norway","Europe","Philippines","Oceania",1978,0.42
+"44299","Germany","Europe","Philippines","Oceania",1978,10.32
+"44369","Austria","Europe","Philippines","Oceania",1978,0.05
+"44492","Japan","Asia","Philippines","Oceania",1978,66.47
+"44779","Denmark","Europe","Philippines","Oceania",1978,3.51
+"44793","United Kingdom","Europe","Philippines","Oceania",1978,0.42
+"44830","Finland","Europe","Philippines","Oceania",1978,0.02
+"44858","Canada","North America","Philippines","Oceania",1978,1.67
+"44895","New Zealand","Oceania","Philippines","Oceania",1978,3.08
+"44918","United States","North America","Philippines","Oceania",1978,67
+"45024","France","Europe","Rwanda","Africa",1978,9.18
+"45077","Netherlands","Europe","Rwanda","Africa",1978,1.98
+"45132","Belgium","Europe","Rwanda","Africa",1978,36.31
+"45261","United States","North America","Rwanda","Africa",1978,3
+"45297","Italy","Europe","Rwanda","Africa",1978,0.04
+"45345","Germany","Europe","Rwanda","Africa",1978,12.25
+"45555","United Kingdom","Europe","Rwanda","Africa",1978,0.06
+"45583","Austria","Europe","Rwanda","Africa",1978,0.18
+"45627","Denmark","Europe","Rwanda","Africa",1978,0.26
+"45738","Canada","North America","Rwanda","Africa",1978,7.13
+"45795","Switzerland","Europe","Rwanda","Africa",1978,6.52
+"45870","Japan","Asia","Rwanda","Africa",1978,2.02
+"45993","Netherlands","Europe","Samoa","Oceania",1978,0.31
+"46107","Germany","Europe","Samoa","Oceania",1978,0.81
+"46114","Japan","Asia","Samoa","Oceania",1978,1.23
+"46139","Belgium","Europe","Samoa","Oceania",1978,0.02
+"46140","United Kingdom","Europe","Samoa","Oceania",1978,0.02
+"46144","Australia","Oceania","Samoa","Oceania",1978,3.73
+"46179","New Zealand","Oceania","Samoa","Oceania",1978,4.15
+"46206","United States","North America","Samoa","Oceania",1978,1
+"46402","Netherlands","Europe","Sao Tome and Principe","Africa",1978,0.32
+"46440","Germany","Europe","Sao Tome and Principe","Africa",1978,0.03
+"46444","Switzerland","Europe","Sao Tome and Principe","Africa",1978,0.18
+"46459","France","Europe","Sao Tome and Principe","Africa",1978,0.82
+"46483","Sweden","Europe","Sao Tome and Principe","Africa",1978,0.44
+"46777","Switzerland","Europe","Senegal","Africa",1978,1.01
+"46816","Netherlands","Europe","Senegal","Africa",1978,2.89
+"46822","France","Europe","Senegal","Africa",1978,76.74
+"46849","Germany","Europe","Senegal","Africa",1978,5.83
+"46945","Austria","Europe","Senegal","Africa",1978,0.23
+"46970","Belgium","Europe","Senegal","Africa",1978,4.95
+"46981","Italy","Europe","Senegal","Africa",1978,0.16
+"47153","United States","North America","Senegal","Africa",1978,14
+"47268","Australia","Oceania","Senegal","Africa",1978,0.01
+"47293","United Kingdom","Europe","Senegal","Africa",1978,1.45
+"47352","Japan","Asia","Senegal","Africa",1978,1.49
+"47380","Norway","Europe","Senegal","Africa",1978,2.34
+"47477","Denmark","Europe","Senegal","Africa",1978,0.01
+"47542","Canada","North America","Senegal","Africa",1978,10.45
+"47677","Italy","Europe","Sierra Leone","Africa",1978,0.02
+"47697","Ireland","Europe","Sierra Leone","Africa",1978,0.03
+"47720","United States","North America","Sierra Leone","Africa",1978,4
+"47852","United Kingdom","Europe","Sierra Leone","Africa",1978,1.91
+"47886","Switzerland","Europe","Sierra Leone","Africa",1978,0.01
+"47950","Germany","Europe","Sierra Leone","Africa",1978,4.33
+"48203","Belgium","Europe","Sierra Leone","Africa",1978,0.04
+"48217","Japan","Asia","Sierra Leone","Africa",1978,0.03
+"48241","Netherlands","Europe","Sierra Leone","Africa",1978,2.81
+"48302","Finland","Europe","Sierra Leone","Africa",1978,0.01
+"48341","Australia","Oceania","Sierra Leone","Africa",1978,0.03
+"48368","Canada","North America","Sierra Leone","Africa",1978,0.16
+"48400","New Zealand","Oceania","Sierra Leone","Africa",1978,0.02
+"48429","Denmark","Europe","Sierra Leone","Africa",1978,0.08
+"48732","Australia","Oceania","Solomon Islands","Oceania",1978,3.13
+"48766","United Kingdom","Europe","Solomon Islands","Oceania",1978,19.98
+"48813","Denmark","Europe","Solomon Islands","Oceania",1978,0.01
+"48849","New Zealand","Oceania","Solomon Islands","Oceania",1978,0.35
+"48852","Japan","Asia","Solomon Islands","Oceania",1978,0.64
+"48915","Netherlands","Europe","Somalia","Africa",1978,1.39
+"48975","Switzerland","Europe","Somalia","Africa",1978,0.3
+"49163","Belgium","Europe","Somalia","Africa",1978,0.04
+"49210","Italy","Europe","Somalia","Africa",1978,7.36
+"49251","Sweden","Europe","Somalia","Africa",1978,2.7
+"49297","Canada","North America","Somalia","Africa",1978,0.01
+"49362","Germany","Europe","Somalia","Africa",1978,20.01
+"49380","Japan","Asia","Somalia","Africa",1978,0.12
+"49438","Finland","Europe","Somalia","Africa",1978,0.02
+"49542","United States","North America","Somalia","Africa",1978,13
+"49587","United Kingdom","Europe","Somalia","Africa",1978,1.89
+"50032","Finland","Europe","Sri Lanka","Asia",1978,0.06
+"50046","United Kingdom","Europe","Sri Lanka","Asia",1978,14.87
+"50050","France","Europe","Sri Lanka","Asia",1978,2.89
+"50072","Belgium","Europe","Sri Lanka","Asia",1978,0.11
+"50112","Switzerland","Europe","Sri Lanka","Asia",1978,0.3
+"50134","Hungary","Europe","Sri Lanka","Asia",1978,0.1
+"50191","Netherlands","Europe","Sri Lanka","Asia",1978,32.06
+"50276","Norway","Europe","Sri Lanka","Asia",1978,5.17
+"50386","Austria","Europe","Sri Lanka","Asia",1978,0.03
+"50418","Australia","Oceania","Sri Lanka","Asia",1978,5.89
+"50422","Germany","Europe","Sri Lanka","Asia",1978,33.45
+"50653","United States","North America","Sri Lanka","Asia",1978,41
+"50770","Denmark","Europe","Sri Lanka","Asia",1978,1.99
+"50792","Japan","Asia","Sri Lanka","Asia",1978,39.46
+"50806","Canada","North America","Sri Lanka","Asia",1978,25.24
+"50817","New Zealand","Oceania","Sri Lanka","Asia",1978,0.15
+"50821","Sweden","Europe","Sri Lanka","Asia",1978,13.68
+"50866","United States","North America","Sudan","Africa",1978,10
+"50978","Germany","Europe","Sudan","Africa",1978,38.15
+"51164","United Kingdom","Europe","Sudan","Africa",1978,13.57
+"51238","Canada","North America","Sudan","Africa",1978,0.88
+"51341","Sweden","Europe","Sudan","Africa",1978,1.18
+"51465","Finland","Europe","Sudan","Africa",1978,0.1
+"51469","Austria","Europe","Sudan","Africa",1978,0.16
+"51493","Australia","Oceania","Sudan","Africa",1978,0.76
+"51523","Denmark","Europe","Sudan","Africa",1978,1.11
+"51547","Italy","Europe","Sudan","Africa",1978,0.46
+"51577","Netherlands","Europe","Sudan","Africa",1978,15.96
+"51713","Norway","Europe","Sudan","Africa",1978,6.5
+"51721","Belgium","Europe","Sudan","Africa",1978,0.52
+"51732","Ireland","Europe","Sudan","Africa",1978,0.15
+"51736","Japan","Asia","Sudan","Africa",1978,23.17
+"51790","Switzerland","Europe","Sudan","Africa",1978,0.43
+"51865","Germany","Europe","Swaziland","Africa",1978,12.82
+"51900","Australia","Oceania","Swaziland","Africa",1978,0.06
+"51914","Sweden","Europe","Swaziland","Africa",1978,3.13
+"51967","Norway","Europe","Swaziland","Africa",1978,0.39
+"51999","Netherlands","Europe","Swaziland","Africa",1978,0.94
+"52048","Belgium","Europe","Swaziland","Africa",1978,0.04
+"52050","United Kingdom","Europe","Swaziland","Africa",1978,12.28
+"52071","United States","North America","Swaziland","Africa",1978,1
+"52111","New Zealand","Oceania","Swaziland","Africa",1978,0.01
+"52228","Denmark","Europe","Swaziland","Africa",1978,0.68
+"52274","Canada","North America","Swaziland","Africa",1978,1.54
+"52277","Austria","Europe","Swaziland","Africa",1978,0.01
+"52297","Ireland","Europe","Swaziland","Africa",1978,0.08
+"52383","Japan","Asia","Swaziland","Africa",1978,0.18
+"52493","Australia","Oceania","Syrian Arab Republic","Asia",1978,0.05
+"52547","Hungary","Europe","Syrian Arab Republic","Asia",1978,3
+"52644","Austria","Europe","Syrian Arab Republic","Asia",1978,0.36
+"52657","Switzerland","Europe","Syrian Arab Republic","Asia",1978,0.46
+"52677","Netherlands","Europe","Syrian Arab Republic","Asia",1978,1.55
+"52705","United Kingdom","Europe","Syrian Arab Republic","Asia",1978,0.07
+"52718","Germany","Europe","Syrian Arab Republic","Asia",1978,12.06
+"52722","Belgium","Europe","Syrian Arab Republic","Asia",1978,0.67
+"52772","Italy","Europe","Syrian Arab Republic","Asia",1978,0.18
+"52867","Poland","Europe","Syrian Arab Republic","Asia",1978,2.2
+"52900","France","Europe","Syrian Arab Republic","Asia",1978,0.15
+"52959","United States","North America","Syrian Arab Republic","Asia",1978,18
+"53024","Japan","Asia","Syrian Arab Republic","Asia",1978,1.52
+"53118","Finland","Europe","Syrian Arab Republic","Asia",1978,0.01
+"53728","Norway","Europe","Tanzania","Africa",1978,30.68
+"53745","Germany","Europe","Tanzania","Africa",1978,55.39
+"53844","United Kingdom","Europe","Tanzania","Africa",1978,18.58
+"53938","Switzerland","Europe","Tanzania","Africa",1978,2
+"53961","Ireland","Europe","Tanzania","Africa",1978,0.44
+"54020","United States","North America","Tanzania","Africa",1978,16
+"54200","Belgium","Europe","Tanzania","Africa",1978,4.8
+"54242","Sweden","Europe","Tanzania","Africa",1978,64.15
+"54414","Canada","North America","Tanzania","Africa",1978,29.01
+"54418","Denmark","Europe","Tanzania","Africa",1978,37.59
+"54420","Australia","Oceania","Tanzania","Africa",1978,2.77
+"54422","New Zealand","Oceania","Tanzania","Africa",1978,0.68
+"54424","Finland","Europe","Tanzania","Africa",1978,9.87
+"54477","Netherlands","Europe","Tanzania","Africa",1978,50.85
+"54493","Japan","Asia","Tanzania","Africa",1978,9.98
+"54653","Austria","Europe","Tanzania","Africa",1978,0.2
+"54853","Switzerland","Europe","Timor-Leste","Africa",1978,0.01
+"55154","Switzerland","Europe","Togo","Oceania",1978,0.27
+"55286","Germany","Europe","Togo","Oceania",1978,38.88
+"55366","Austria","Europe","Togo","Oceania",1978,1.08
+"55459","Italy","Europe","Togo","Oceania",1978,0.02
+"55543","Japan","Asia","Togo","Oceania",1978,0.19
+"55590","Canada","North America","Togo","Oceania",1978,4.56
+"55620","Belgium","Europe","Togo","Oceania",1978,0.27
+"55651","Netherlands","Europe","Togo","Oceania",1978,1.15
+"55670","United Kingdom","Europe","Togo","Oceania",1978,0.05
+"55738","Norway","Europe","Togo","Oceania",1978,0.18
+"55752","Denmark","Europe","Togo","Oceania",1978,1.61
+"55762","United States","North America","Togo","Oceania",1978,1
+"55819","France","Europe","Togo","Oceania",1978,17.28
+"55877","New Zealand","Oceania","Tokelau","Oceania",1978,0.94
+"56076","New Zealand","Oceania","Tuvalu","Oceania",1978,0.04
+"56131","United Kingdom","Europe","Tuvalu","Oceania",1978,1.97
+"56160","Australia","Oceania","Tuvalu","Oceania",1978,0.53
+"56278","Belgium","Europe","Uganda","Africa",1978,0.05
+"56326","Italy","Europe","Uganda","Africa",1978,0.2
+"56523","Germany","Europe","Uganda","Africa",1978,3.07
+"56587","Austria","Europe","Uganda","Africa",1978,0.25
+"56692","Netherlands","Europe","Uganda","Africa",1978,0.67
+"56764","Switzerland","Europe","Uganda","Africa",1978,0.12
+"56770","Australia","Oceania","Uganda","Africa",1978,0.14
+"56905","Japan","Asia","Uganda","Africa",1978,0.5
+"56906","Denmark","Europe","Uganda","Africa",1978,0.03
+"56965","United Kingdom","Europe","Uganda","Africa",1978,2.18
+"56977","Canada","North America","Uganda","Africa",1978,0.33
+"57900","France","Europe","Vanuatu","Oceania",1978,3.12
+"57970","Netherlands","Europe","Vanuatu","Oceania",1978,0.01
+"57971","United Kingdom","Europe","Vanuatu","Oceania",1978,14.46
+"58080","New Zealand","Oceania","Vanuatu","Oceania",1978,0.05
+"58210","Japan","Asia","Vanuatu","Oceania",1978,0.05
+"58227","Australia","Oceania","Vanuatu","Oceania",1978,0.75
+"58268","Australia","Oceania","Viet Nam","Asia",1978,5.05
+"58312","Austria","Europe","Viet Nam","Asia",1978,0.08
+"58373","Netherlands","Europe","Viet Nam","Asia",1978,9.44
+"58378","New Zealand","Oceania","Viet Nam","Asia",1978,0.08
+"58396","Switzerland","Europe","Viet Nam","Asia",1978,0.87
+"58460","Italy","Europe","Viet Nam","Asia",1978,0.64
+"58514","Belgium","Europe","Viet Nam","Asia",1978,3.05
+"58604","Finland","Europe","Viet Nam","Asia",1978,0.35
+"58626","Germany","Europe","Viet Nam","Asia",1978,8.49
+"58673","United Kingdom","Europe","Viet Nam","Asia",1978,2.79
+"58692","Hungary","Europe","Viet Nam","Asia",1978,30
+"58729","Japan","Asia","Viet Nam","Asia",1978,28.51
+"58788","Norway","Europe","Viet Nam","Asia",1978,9.89
+"58801","Sweden","Europe","Viet Nam","Asia",1978,77.02
+"58807","France","Europe","Viet Nam","Asia",1978,23.77
+"58842","Canada","North America","Viet Nam","Asia",1978,5.5
+"58902","Poland","Europe","Viet Nam","Asia",1978,19
+"59051","Denmark","Europe","Viet Nam","Asia",1978,32.78
+"59873","Ireland","Europe","Yemen","Africa",1978,0.02
+"59990","United States","North America","Yemen","Africa",1978,7
+"60033","Netherlands","Europe","Yemen","Africa",1978,14.15
+"60048","Hungary","Europe","Yemen","Africa",1978,0.1
+"60080","Germany","Europe","Yemen","Africa",1978,9.42
+"60101","Finland","Europe","Yemen","Africa",1978,0.01
+"60104","Switzerland","Europe","Yemen","Africa",1978,0.11
+"60125","Norway","Europe","Yemen","Africa",1978,0.27
+"60136","Italy","Europe","Yemen","Africa",1978,0.71
+"60328","United Kingdom","Europe","Yemen","Africa",1978,5.53
+"60459","France","Europe","Yemen","Africa",1978,1.01
+"60508","Japan","Asia","Yemen","Africa",1978,11.82
+"60684","New Zealand","Oceania","Zambia","Africa",1978,0.01
+"60685","United States","North America","Zambia","Africa",1978,35
+"60832","Belgium","Europe","Zambia","Africa",1978,1.22
+"60844","Norway","Europe","Zambia","Africa",1978,6.92
+"60847","Switzerland","Europe","Zambia","Africa",1978,0.13
+"60888","Japan","Asia","Zambia","Africa",1978,27.95
+"60890","Denmark","Europe","Zambia","Africa",1978,2.31
+"60926","Finland","Europe","Zambia","Africa",1978,6.01
+"60930","Austria","Europe","Zambia","Africa",1978,0.24
+"60931","Canada","North America","Zambia","Africa",1978,15.94
+"61075","Australia","Oceania","Zambia","Africa",1978,0.47
+"61121","Sweden","Europe","Zambia","Africa",1978,19.35
+"61182","United Kingdom","Europe","Zambia","Africa",1978,24.92
+"61249","Ireland","Europe","Zambia","Africa",1978,0.4
+"61272","Netherlands","Europe","Zambia","Africa",1978,8.08
+"61590","Germany","Europe","Zambia","Africa",1978,17.27
+"61672","New Zealand","Oceania","Zimbabwe","Africa",1978,0.1
+"61769","United Kingdom","Europe","Zimbabwe","Africa",1978,6.69
+"62058","Germany","Europe","Zimbabwe","Africa",1978,1.3
+"62153","Canada","North America","Zimbabwe","Africa",1978,0.05
+"62203","Switzerland","Europe","Zimbabwe","Africa",1978,0.33
