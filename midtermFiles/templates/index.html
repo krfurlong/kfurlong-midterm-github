@@ -20,6 +20,7 @@
 <body role="document">
 
     <!-- Fixed navbar -->
+    
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -32,8 +33,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li  class="active"><a href="about">About This Data Set</a></li>
+            <li class="active"><a href="/">Home</a></li>
+            <li ><a href="about">More Information</a></li>
 	    	<li><a href="quality">Data Quality</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -44,9 +45,197 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-	<h1>Interactive Data Science - Foreign Aid among OECD Nations, 1960-2016</h1>
-        <p>Blurb on project here!</p>
+	<h1>OECD Foreign Aid from 1960-2016</h1>
+       <p>A project for Interactive Data Science at Carnegie Mellon University by Lina Osorio and Kyle Furlong</p>
       </div>
+     <div class="row">
+     <div class="page-header">
+		<div class="col-md-8">
+		
+		<h2>Introduction</h2>
+		<p>Foreign aid plays an incredibly important role in the economies of developing nations and in ensuring the 
+		international security of developed nations worldwide. Largely viewed in the academic and political 
+		communities as invaluable to global stability, foreign aid from wealthy nations to less politically and/or 
+		economically stable nations helps connect different peoples and lessens the prevalence and severity of global 
+		conflict and terrorism. Even current generals in the United States recognize the importance of foreign aid as 
+		provided through the U.S. Department of State, going as far to state: </p>
+		<blockquote class="blockquote">
+				<p class="mb-0">
+					<a href = "http://www.businessinsider.com/mattis-state-department-funding-need-to-buy-more-ammunition-2017-2">
+		“If you don't fund the State Department fully, then I need to buy more ammunition.”</a>
+				</p>
+				<footer class="blockquote-footer">
+					James Mattis, U.S. Secretary of Defense (2016-)
+				</footer>
+			</blockquote>
+		
+</div>
+
+
+		<div class="col-md-4">
+		<br>
+		<img src="/images/builder.jpg" alt = "Man building infrastructure as a part of foregin aid" class="img-rounded" style="width:400px;height:250px;">
+		<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@alexradelich?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Alex Radelich"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg>
+		</span><span style="display:inline-block;padding:2px 3px;">Alex Radelich</span></a>
+		</div>
+	</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+		<br>
+		<img src="/images/protest.jpg" alt = "Resistance to the Trump administration's take on foreign aid" class="img-rounded" style="width:300px;height:200px;">
+		<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@nitishm?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Nitish Meena"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Nitish Meena</span></a>
+		</div>
+		<div class="col-md-8">
+		<br>
+		<p>Given these widely acknowledged social benefits to international foreign aid, the increasingly isolationist 
+		rhetoric of the Trump administration comes as a significant threat to global security. While funding national 
+		defense efforts is indeed of great importance to the safety of the United States and its citizens, both 
+		domestic and abroad, <a href = "http://www.un.org/esa/documents/Development.and.Conflict2.pdf">funding peace 
+		efforts in areas of conflict within developing nations actually is more effective as it stems conflict and 
+		crisis at its source</a>. However, historically, the extent to which the developed world provided aid to the 
+		developing world has been somewhat limited and unfortunately, often reserved for countries or regions at the 
+		onset of conflict. </p>
+		<p>To this end, we pose the following question: </p>
+		</div>
+</div>
+<div class="row">
+	<div class="col-md-1">
+	</div>
+	<div class="col-md-10">
+	<blockquote class="blockquote">
+	<br>
+	<h3>
+	How has foreign aid from OECD nations changed over time? Moreover, how has this international community responded 
+	with foreign aid during times of crisis and conflict from 1960 to 2016?
+	</h3>
+	</blockquote>
+	</div>
+<div class="col-md-1">
+</div>
+</div>
+<div class="row">
+<div class="page-header">
+<div class="col-md-12">
+<h2>The Data</h2>
+<p>The Organization for Economic Cooperation and Development (OECD) is an international economic organization 
+comprised of thirty-five member nations. Founded in 1961, the stated purpose of this critical intergovernmental group 
+is to <b>promote policies that will improve the economic and social well-being of people around the world.</b> 
+by encouraging global trade and international economic outreach activities. As a part of its pursuit of this missin, 
+the OECD has collected vast amounts of data on the economic activities of the world and in particular those of the member 
+nations. The topics of their database range from health indicators to measures of social/technical innovation to economic 
+activities; however, for the purpose of our analysis, we pulled publically available data regarding the quantity of 
+foreign aid from OECD member nations to non-OECD nations from the inception of this organization (1960) to the most recent 
+year available (2016). </p>
+
+<p>While incredibly comprehensive, the initial structure of our data was not ideal for web visualization with Tableau’s 
+resources. For this reason, we imported our data set into R for some minor data cleaning and significant data wrangling 
+to transform the data from a “wide” format ideal for time-series cluster analysis to a “long” format ideal for 
+visualization. Furthermore, our data lacked any indication of the continent of each donating and receiving country, 
+so we joined this information to our data set using SQL statements. Finally, due to the sheer size of our data set and 
+the computationally taxing nature of big data web visualization in Tableau, we chose to filter our data using SQL 
+statements to only include information where an OECD nation donated at least $500,000 to a non-OECD nation, adjusted 
+for inflation. Although this intentional omission results in slightly less detailed visualizations, the overall narrative 
+remains the same and <a href = "https://stats.oecd.org/qwids/">the omitted data can be easily downloaded for those 
+interested in this granular data.</a></p>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="page-header">
+<div class="col-md-12">
+<h2>Mapping Foreign Aid, 1960-2016</h2>
+<p>With our data well-defined and <a href="about">other potential data limitations considered</a>,  
+we can begin our analysis. The following dashboard shows the worldwide relationship between the 
+donor nation and recipient of foreign aid from 1960 to 2016. To see a more detailed analysis, we can drill down 
+the information presented to evaluate the flow of aid on both the continent and the country level. As you can see 
+clearly in the continents legend in the top-right corner of the dashboard, historically most of the aid goes to 
+Africa (blue square) and Asia (orange square), and the primary donor is Europe (red square) as seen in the data 
+summary on the right-side of the dashboard.</p>
+
+<p>
+In using the visualization to view foreign aid by country as a function of time, we noted that donations from 
+European nations spike after 2000 as a result of the 
+<a href = "https://ec.europa.eu/europeaid/historical-overview-eu-cooperation-and-aid_en">EU fight against 
+poverty as part of the Millennium Development Goals (MDG)</a> and the impending <em>War Against Terrorism</em> 
+immediately following 9/11. We invite you explore the data in more detail by clicking on any of the countries 
+in the map to zoom in and filter the aid distributed by donor for that region. Let’s learn about international 
+foreign aid!
+</p>
+
+</div>
+</div>
+</div>
+      
+      <div class='tableauPlaceholder' id='viz1523044525599' style='position: relative'>
+      <noscript>
+      <a href='#'>
+      <img alt='Recipient ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;P7&#47;P7K9S77CY&#47;1_rss.png' style='border: none' />
+      </a></noscript><object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='path' value='shared&#47;P7K9S77CY' /> 
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;P7&#47;P7K9S77CY&#47;1.png' /> 
+      <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='filter' value='publish=yes' />
+      </object>
+      </div>                
+      <script type='text/javascript'>                    
+      var divElement = document.getElementById('viz1523044525599');                    
+      var vizElement = divElement.getElementsByTagName('object')[0];                    
+      vizElement.style.width='1000px';vizElement.style.height='827px';                    
+      var scriptElement = document.createElement('script');                    
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+      </script>
+      
+ <div class="row">
+<div class="page-header">
+<div class="col-md-12">
+<h2>Understanding Trends in Foreign Aid, 1960-2016</h2>
+<p>
+While our earlier dashboard is incredibly helpful in understanding aggregate trends of foreign aid, it is also 
+important to understand foreign aid in terms of the specific flow of funds between developed and developing nations. 
+To do so, we designed the following graph, a Sankey diagram, which shows the flow of monetary and economic resources 
+from OECD countries (located on the left-side in bright colors) to recipient countries (located on the right-side in 
+greyscale). </p>
+
+<p>The default view of this visualization is set to 2016 and intentionally omits the United States to better display 
+the contributions of all other nations. However, we invite you to adjust the temporal aspect of this diagram using the
+ slider on the bottom of the view to the year 1960 and reintroduce the United States to the diagram using the filter 
+ option in the bottom-left corner of the visualization. We can see that in 1960 United States provided 69.3% of the total
+ aid sources, and the primary recipients were India (36.2%) and Pakistan (12.5%). This surge was likely due to the fact that
+ <a href = "https://www.usaid.gov/who-we-are/usaid-history">both nations were facing political disputes and economic 
+ issues during that time</a>. Generally, it is important to note that we express these donations in terms of proportions as this scales the data and fails to acknowledge the fact that the 
+ total amount of foreign aid has dramatically increased from 1960 to 2016. </p>
+ 
+<p>Using a Sankey diagram also introduces a different perspective to this data set as it highlights how 
+different the donors and recipients are on a geopolitical spectrum. More over, the Sankey diagram emphasizes how 
+foreign aid is largely a reactionary measure in the international community as clearly seen in the increase of aid 
+economic resources send to Afghanistan, and more broadly the Middle-East, following the terrorist attacks of 2001. 
+As seen in shifting the temporal slider bar, we clearly see a trend of developed countries providing foreign aid as a 
+way to deploy their soft power to avoid political destabilization, yet only in response to catastrophic events in these 
+developing nations. </p>
+
+<p>
+Using the time filter, we can see two other significant changes compared with 1960. First, the United States now 
+provides 33.1% of total aid, which is a considerable reduction in their participation, and countries such as United 
+Kingdom (12%), Japan (13.8%), and Germany (11.9%) appeared as relevant contributors in 2016. Also, we can see that 
+while there are many more recipient countries in 2016 relative to 1960, none of them receives more than Afghanistan, 
+which was given 7% of the total aid. As with our previous visualization, we encourage you to explore the Sankey diagram 
+in more detail by filtering by year and by different donor nations.
+</p>
+
+
+</div>
+</div>
+</div>
+      
+      
       <div class='tableauPlaceholder' id='viz1522886337812' style='position: relative'>
       <noscript><a href='#'>
       <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;YM&#47;YM8TW7TZJ&#47;1_rss.png' style='border: none' />
@@ -67,11 +256,28 @@
       	var divElement = document.getElementById('viz1522886337812');                    
       	var vizElement = divElement.getElementsByTagName('object')[0];                    
       	vizElement.style.width='90%';
-      	vizElement.style.height=(divElement.offsetWidth*0.45)+'px';                    
+      	vizElement.style.height=(divElement.offsetWidth*0.55)+'px';                    
       	var scriptElement = document.createElement('script');                    
       	scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
       	vizElement.parentNode.insertBefore(scriptElement, vizElement);                
       	</script>
+      	
+ <div class="row">
+<div class="page-header">
+<div class="col-md-12">
+<h2>Data Limitations</h2>
+<p>
+Despite the high quality and granular nature of this data set, it nonetheless has a number of limitations. 
+Most importantly, it is important to stress that our data only assesses the flow of aid from OECD member nations to 
+non-OECD nations. Therefore, there are a few notably missing nations, such as China and Russia, because they are not 
+OECD member nations. However, it is well known that both of these nations have been increasing active in the foreign 
+aid scene, primarily focused on infrastructure projects. This focus is part of their 
+<a href = "https://www.washingtonpost.com/news/worldviews/wp/2017/10/11/china-treats-its-foreign-aid-like-a-state-secret-new-research-aims-to-reveal-it/?utm_term=.6e8409e8e14c">
+foreign policy strategy to strengthen their soft power within developing countries and reap economic boons 
+later once the economies of these developing nations stabilize</a>. </p>
+</div>
+</div>
+</div>
  
 
  
