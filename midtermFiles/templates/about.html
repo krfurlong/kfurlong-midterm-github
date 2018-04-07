@@ -35,7 +35,6 @@
           <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
             <li  class="active"><a href="about">More Information</a></li>
-	    	<li><a href="quality">Data Quality</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -45,59 +44,85 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-	<h1>Accountability: About This Data Set</h1>
-        <p>Given the high degree of control exerted by the developers over the data collection process, 
-        the data presented in this web application is accountable and can be traced directly back to the 
-        source of the data. Using tools including the AWARE Framework App, Google Cloud, and R, each step 
-        along the data pipeline for this application is well-documented and transparent for interested parties.</a></p>
+      <h1>Additional Information...</h1>
+      <p><em>including data limitations and insights from user testing</em></p>
       </div>
+      
+      <div class="row">
+<div class="page-header">
+<div class="col-md-12">
+<h2>Data Limitations</h2>
+<p>
+Despite the high quality and granular nature of this data set, it nonetheless has a number of limitations. 
+Most importantly, it is important to stress that our data only assesses the flow of aid from OECD member nations 
+to non-OECD nations. Therefore, there are a few notably missing nations, such as China and Russia, because they are 
+not OECD member nations. However, it is well known that both of these nations have been increasing active in the 
+foreign aid scene, primarily focused on infrastructure projects. This focus is part of their 
+<a href = "https://www.washingtonpost.com/news/worldviews/wp/2017/10/11/china-treats-its-foreign-aid-like-a-state-secret-new-research-aims-to-reveal-it/?utm_term=.6e8409e8e14c">
+foreign policy strategy to strengthen their soft power within developing countries and reap economic boons later once 
+the economies of these developing nations stabilize</a>.</p>
 
-    
-      <div class="page-header">
-	<h2>Data Source: Where did this data come from?</h2>
-	<p>This data was collected from one Apple iPhone 5s mobile device (Kyle Furlong's) on which the developers installed the AWARE Framework
-	application directly from the Apple App Store. Information regarding the AWARE Framework and its various sensors can 
-	be found <a href="http://www.awareframework.com/">here.</a> After downloading the application, the developers set up 
-	an instance in the Google Cloud in which they operated an auto-updating SQL database which periodically collected the 
-	most up-to-date data from the mobile application. Data for this project was collected near-continuously between 
-	February 15, 2018 at 9:47:11AM and March 5, 2018 at 7:48:52PM. Following the data collection period, it was then 
-	downloaded from the Google SQL database into a CSV format which the developers then imported into R for data cleaning. 
-	The location data was converted from CSV to GEOJSON using online open source applications, yet these sources should not
-	have altered or jeopardized the quality or accountability of the data in any way, shape, or form.
-	</p>
-    </div>
-      
-      <div class="page-header">
-	<h2>Data Accessibility: Who has access to it?</h2>
-	<p>The data as presented on this website is accessible only to Kyle Furlong, the author and developer of this site. 
-	During the course of the data collection and cleaning processes, it is possible that other entities or websites acquired 
-	parts or all of the data due to Terms and Conditions of usage. For example, the data was converted from its original CSV
-	format to JSON and GEOJSON files through <a href= "http://geojson.io"/>GeoJson.io</a> and 
-	<a href = "http://www.convertcsv.com/csv-to-geojson.htm">ConvertCSV.com</a> which likely stored some of the data as "payment"
-	for using their free services. However, though multiple entities may have access to the raw data, the data presented on the
-	website can only be accessed and altered by the developer. 
-	</p>
-      </div>
-      
-      <div class="page-header">
-	<h2>About the Developer</h2>
-	<div class="row" >
-	<div class="col-md-10">
-	<div style = "font-size: 125%">
-	<p>This webpage and accompanying web applications were developed by Kyle Furlong, an MS in Public Policy 
-	and Management - Data Analytics candidate at the Heinz College at Carnegie Mellon University. He programmed 
-	and designed this webpage and content for an assignment in 05-89: Interactive Data Science in Carnegie Mellon
-	University's Human-Computer Interaction Institute in partial fulfillment of his <i>Data Mining and Machine 
-	Learning</i> requirement for his degree. 
-	</div>
-	</p>
-	</div>
-	<div class="col-md-2">
-	<img alt="Kyle Furlong Profile Picture" src="/images/profile.jpg" class="img-rounded" />
-	</div>
-	</div>
-	
-      </div>
+<p>In addition to omitting important world powers that are nonetheless not member nations in the OECD
+data also lacks information on foreign aid passed between developing countries. Often, nations will pass foreign 
+aid to other nations in similar economic positions as both a show of good faith and a political tool for 
+positioning a favorable economic policy. For instance, our research indicated many African and Asian nations, 
+the two continents that drawn in the greatest quantities of foreign aid, also donate between one another to further 
+economic pursuits and stability along their respective borders.</p>
+
+<p>Finally, while not immediately the focus of our project, it may have been beneficial to differentiate 
+between the types of aid provided from OECD countries to non-OECD nations. For example, foreign investments 
+in infrastructure, medical services, and food security are immensely important for developing nations as they 
+ensure the health of their citizens and support a healthy and efficient workforce to help build a thriving economy. 
+However, it is likely that a significant portion of the aid provided, and particularly the aid from the United States, 
+is in the form of military support and resources. These types of aid, while perhaps useful in the short-term, do 
+little to support the long-term stability and prosperity of developing nations. Therefore, our visualizations may 
+be indicating a disproportionate American influence due to its expansive Military Industrial Complex since while 
+these resources are indeed expansive, they may not be as beneficial as other non-violent related forms of foreign aid.</p>
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="page-header">
+<div class="col-md-12">
+
+	<h2>User Testing</h2>
+        <p>
+During the early stages of our analysis, we consulted with a convenience sample of individuals likely representative 
+of the types of users who would find these applications helpful. Initially, we used simple line plots to show the total 
+amount of foreign aid both given and received over time. In response to these design choices, users expressed slight 
+dissatisfaction at not being able to dig into the data from a temporal aspect. As this point, we modified our design 
+to enable users to specify the time period of interest. Similarly, many of our test users stated a desire to filter by 
+OECD nation as to better understand the specific flows between each donating and receiving nation. In response, we both 
+included a filter option and converted our line plots to a more intuitive Sankey diagram which excels at communicating 
+flows between two endpoints.</p> 
+
+<p>We undertook a similar process when designing our first dashboard. In the early stages, we familiarized ourselves 
+with the data set to understand how best to represent the differing components in an interactive and intuitive format.
+ Following this exploratory data analysis, we brainstormed and sketched our prototype on paper to form a preliminary 
+ design. Then, we finally transferred these designs into Tableau on a dashboard and reached out to our convenience sample 
+ for feedback. They expressed excitement and interest in the design and subject matter but were frustrated that they could 
+ not intuit how to use the initial clunky and somewhat obscure layout. As a result, we simplified our original design 
+ and streamlined the interactivity to ensure that the different panels of the dashboard were interconnected. This ensured 
+ that when users began filtering with one component of the design, the others would adjust accordingly. We also deleted 
+ the legend for recipient countries since it did not add any new and relevant information. Similarly, we separated the 
+ continent legends in two different titles in order to display additional information.</p>
+
+<p>Throughout the user-testing experience, we gained incredible insight on how users might interact with our interactive 
+visualizations and which factors are most important for different types of users. These personalized experience allowed 
+us to incorporate more relevant pieces of information into our design while minimizing extraneous details that the users 
+did not deem as critical to the overall presentation of the design. Furthermore, we realized how critical intuition is in 
+our interactive dashboards. Without instructions, users easily become frustrated and become disengaged with the design, 
+and more broadly with the entire content of our web application. Conversely, after we adapted our dashboards to 
+incorporate our users’ feedback and reintroduced these products to the test users, they immediately became engrossed in 
+the content of our website and enjoyed learning about the nuanced ebbs and flows of foreign aid.</p>
+
+</div>
+</div>
+</div>
+
+
 
 				
 
